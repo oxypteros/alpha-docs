@@ -13,7 +13,7 @@ series = "Alpha Docs"
 categories = ["Content"]
 
 recommended = false
-featured = false
+featured = true
 description = "An overview of the OCD helper and how it aids with Alpha theme configuration and troubleshooting."
 +++
 {{< text-snippet TITLE="Your Alpha Content Assistant">}}
