@@ -110,7 +110,7 @@ Before we begin, there are **two important things to keep in mind** to ensure Al
 Alpha is designed with a **soft separation** between the **main Site Hugo configuration** (typically in `hugo.toml`) and **Alpha-specific configuration** (in `config/_default/`).
 To avoid issues and keep your site clean:
     -  **Copy** the folder `themes/alpha/config/_default` into your root-level `config/` directory.
-    - **Before you do this**, it’s highly recommended that you read the [Configuration Guide](/docs/configuration) to avoid unpleasant surprises.
+    - **Before you do this**, it’s highly recommended that you read the [Configuration Guide](/docs/config) to avoid unpleasant surprises.
 2. **Frontmatter Fields**
 Just like your previous theme, Alpha uses a mix of **standard Hugo frontmatter keys** and some **theme-specific ones**.
 To ensure a consistent look and behavior across your site after the Alpha installation:
