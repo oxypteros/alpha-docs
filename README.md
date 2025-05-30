@@ -21,17 +21,19 @@ Thank you for being part of the project!
 │   ├── [languages.toml](https://alpha.oxypteros.com/docs/configu/languages-toml)
 │   ├── [menus.toml](https://alpha.oxypteros.com/docs/config/menu-toml)
 │   └── [params.toml](https://alpha.oxypteros.com/docs/config/params-toml)
+├── [OCD](https://alpha.oxypteros.com/docs/ocd) 
+├── [Content Organization](https://alpha.oxypteros.com/docs/content-organization) 
 <!--
 ```
-Alpha Docs (Series)
-├── Install Alpha (Category: Get Started)
-├── Configuration Files (Category: Site Configuration)
+Alpha Docs 
+├── Install Alpha 
+├── Configuration Files 
 │   ├── hugo.toml
 │   ├── languages.toml
 │   ├── menus.toml
 │   └── params.toml
-├── OCD (Category: Site Configuration) 
-├── Content Organization (Category: Content)
+├── OCD 
+├── Content Organization 
 ├── Shortcodes (Category: Content)
 │   ├── Hero Shortcode
 │   ├── Text Snippet Shortcode
