@@ -11,6 +11,11 @@ Your feedback and contributions are always welcome! Whether you:
 Feel free to open an issue or submit a pull request. Every contribution helps improve Alpha and its documentation for everyone.
 
 Thank you for being part of the project!
+
+## Table Of Contents
+
+[Alpha Docs](https://alpha.oxypteros.com/docs)  
+├── [Install Alpha](https://alpha.oxypteros.com/docs/install-alpha)  
 <!--
 ```
 Alpha Docs (Series)
