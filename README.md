@@ -22,25 +22,17 @@ Thank you for being part of the project!
     - [params.toml](https://alpha.oxypteros.com/docs/config/params-toml)
   - [OCD](https://alpha.oxypteros.com/docs/ocd)
   - [Content Organization](https://alpha.oxypteros.com/docs/content-organization)
+  - [Shortcodes](https://alpha.oxypteros.com/docs/shortcodes)
 
 <!--
 ```
-Alpha Docs 
-├── Install Alpha 
-├── Configuration Files 
-│   ├── hugo.toml
-│   ├── languages.toml
-│   ├── menus.toml
-│   └── params.toml
-├── OCD 
-├── Content Organization 
-├── Shortcodes (Category: Content)
+├── Shortcodes 
 │   ├── Hero Shortcode
 │   ├── Text Snippet Shortcode
 │   ├── Numbered List Shortcode
 │   ├── Text Content Shortcodes
 │   └── ...Other Shortcodes
-├── Content Creation (Category: Content)
+├── Content Creation 
 │   ├── Homepage
 │   ├── List Page (Section)
 │   ├── Page 
