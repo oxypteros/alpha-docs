@@ -15,7 +15,8 @@ Thank you for being part of the project!
 ## Table Of Contents
 
 [Alpha Docs](https://alpha.oxypteros.com/docs)  
-├── [Install Alpha](https://alpha.oxypteros.com/docs/install-alpha)  
+├── [Install Alpha](https://alpha.oxypteros.com/docs/install-alpha)
+├── [Configuration Files](https://alpha.oxypteros.com/docs/configuration)
 <!--
 ```
 Alpha Docs (Series)
