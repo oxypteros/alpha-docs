@@ -16,7 +16,11 @@ Thank you for being part of the project!
 
 [Alpha Docs](https://alpha.oxypteros.com/docs)  
 ├── [Install Alpha](https://alpha.oxypteros.com/docs/install-alpha)
-├── [Configuration Files](https://alpha.oxypteros.com/docs/configuration)
+├── [Configuration Files](https://alpha.oxypteros.com/docs/config)
+│   ├── [hugo.toml](https://alpha.oxypteros.com/docs/config/hugo-toml)
+│   ├── [languages.toml](https://alpha.oxypteros.com/docs/configu/languages-toml)
+│   ├── [menus.toml](https://alpha.oxypteros.com/docs/config/menu-toml)
+│   └── [params.toml](https://alpha.oxypteros.com/docs/config/params-toml)
 <!--
 ```
 Alpha Docs (Series)
