@@ -18,27 +18,27 @@ description = "Documentation for Alpha's hero shortcode. Create a text-based her
 +++
 ## Example:
 {{< hero-example
-TITLE="An awesome title!"
-SUBTITLE="A subtitle that complements the title." 
+TITLE="Beyond the Yellow Tape!"
+SUBTITLE="We investigate the stories others overlook." 
 BTN-TEXT="Start reading"
 BTN-LINK="#example"
-BTN-LABEL="Read my first post now"
-LINK-TEXT="View all posts"
+BTN-LABEL="Read our research for the case of The Last Donut"
+LINK-TEXT="View all cases"
 LINK="#example"
-LINK-LABEL="View a complete list of my posts"
+LINK-LABEL="View a complete list of our cases"
 >}}
 
 ## Code
 ```go-html-template
 {{</* hero
-TITLE="An awesome title!"
-SUBTITLE="A subtitle that complements the title." 
+TITLE="Beyond the Yellow Tape!"
+SUBTITLE="We investigate the stories others overlook." 
 BTN-TEXT="Start reading"
-BTN-LINK="/posts/my-first-post"
-BTN-LABEL="Read my first post now"
-LINK-TEXT="View all posts"
+BTN-LINK="/cases/the-last-donut"
+BTN-LABEL="Read our research for the case of The Last Donut"
+LINK-TEXT="View all cases"
 LINK="/posts"
-LINK-LABEL="View a complete list of my posts"
+LINK-LABEL="View a complete list of our cases"
 */>}}
 ```
 ### Overview
@@ -50,35 +50,35 @@ Use on *homepage* and/or *section pages* (`_index.md`).
 **Tip:** Paste this shortcode at the top of your `_index.md` file to add a hero section.
 ### Parameters Reference
 TITLE
-: `TITLE = "Example Title"` ---  (**string**, optional) 
+: `TITLE="Example Title"` ---  (**string**, optional) 
 : H2 heading. Falls back to the **page title** if not provided. 
 
 SUBTITLE 
-: `SUBTITLE = "Example Subtitle"` --- (**string**, optional) 
+: `SUBTITLE="Example Subtitle"` --- (**string**, optional) 
 : H3 heading.
 
 BTN-TEXT
-: `BTN-TEXT = "Link 1 text"` --- (**string**, optional) 
+: `BTN-TEXT="Link 1 text"` --- (**string**, optional) 
 : Text for the button-styled link.
 
 BTN-LINK 
-: `BTN-LINK = "/link/to/path"` --- (**string**, optional) 
+: `BTN-LINK="/link/to/path"` --- (**string**, optional) 
 :  `href` attribute for button-styled link. Requires `BTN-TEXT` to be set.
 
 BTN-LABEL 
-: `BTN-LABEL = "Example label"` --- (**string**, optional) 
+: `BTN-LABEL="Example label"` --- (**string**, optional) 
 : `aria-label` attribute for button-styled link.
 
 LINK-TEXT 
-: `LINK-TEXT = "Link 2 text"` --- (**string**, optional) 
+: `LINK-TEXT="Link 2 text"` --- (**string**, optional) 
 : Text for the secondary link.
 
 LINK 
-: `LINK = "/link/to/path"` --- (**string**, optional) 
+: `LINK="/link/to/path"` --- (**string**, optional) 
 : `href` attribute for the secondary link. Requires `LINK-TITLE` to be set. 
 
 LINK-LABEL 
-: `LINK-LABEL = "Example label"` --- (**string**, optional) 
+: `LINK-LABEL="Example label"` --- (**string**, optional) 
 : `aria-label` attribute for the secondary link. (string, optional)
 
 ### Error Reporting
