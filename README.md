@@ -23,15 +23,14 @@ Thank you for being part of the project!
   - [OCD](https://alpha.oxypteros.com/docs/ocd)
   - [Content Organization](https://alpha.oxypteros.com/docs/content-organization)
   - [Shortcodes](https://alpha.oxypteros.com/docs/shortcodes)
+    - [Hero Shortcode](https://alpha.oxypteros.com/docs/shortcodes/hero)
+    - [Featured Shortcode](https://alpha.oxypteros.com/docs/shortcodes/featured)
+    - [Text-Snippet Shortcode](https://alpha.oxypteros.com/docs/shortcodes/text-snippet)
+    - [Recommended Shortcode](https://alpha.oxypteros.com/docs/shortcodes/recommended)
+    - [Text Content Shortcode](https://alpha.oxypteros.com/docs/shortcodes/text-content)
 
 <!--
 ```
-├── Shortcodes 
-│   ├── Hero Shortcode
-│   ├── Text Snippet Shortcode
-│   ├── Numbered List Shortcode
-│   ├── Text Content Shortcodes
-│   └── ...Other Shortcodes
 ├── Content Creation 
 │   ├── Homepage
 │   ├── List Page (Section)
