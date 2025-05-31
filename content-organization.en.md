@@ -9,7 +9,7 @@ author = "oxypteros"
 license = "CC0"
 series = "Alpha Docs"
   parts = "Content Structure"
-  weight = 180
+  weight = 170
 categories = ["Content"]
 
 recommended = false

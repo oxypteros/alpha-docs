@@ -7,7 +7,7 @@ paginate = false
 
 title = "Shortcodes"
 series = "Alpha Docs"
-  weight = 190
+  weight = 180
 description = "Discover Alpha theme's shortcodes. Learn how they empower you to design, enrich, and customize your site, all without touching a line of theme code."
 +++
 
