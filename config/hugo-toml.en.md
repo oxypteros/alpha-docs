@@ -7,6 +7,7 @@ layout = "page"
 title = "hugo.toml"
 author = "oxypteros"
 license = "CC0"
+github_edit = true
 series = "Alpha Docs"
   parts = "Config Files"
   weight = 120

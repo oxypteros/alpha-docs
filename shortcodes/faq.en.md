@@ -7,6 +7,7 @@ layout = "page"
 title = "Frequently Asked Questions"
 author = "oxypteros"
 license = "CC0"
+github_edit = true
 series = "Alpha Docs"
   parts = "Shortcodes"
   weight = 270

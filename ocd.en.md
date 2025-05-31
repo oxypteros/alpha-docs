@@ -7,6 +7,7 @@ layout = "page"
 title = "OCD"
 author = "oxypteros"
 license = "CC0"
+github_edit = true
 series = "Alpha Docs"
   parts = "OCD"
   weight = 160
