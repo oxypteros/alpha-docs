@@ -28,7 +28,13 @@ Thank you for being part of the project!
     - [Text-Snippet Shortcode](https://alpha.oxypteros.com/docs/shortcodes/text-snippet)
     - [Recommended Shortcode](https://alpha.oxypteros.com/docs/shortcodes/recommended)
     - [Text Content Shortcode](https://alpha.oxypteros.com/docs/shortcodes/text-content)
-
+    - [Recent Shortcode](https://alpha.oxypteros.com/docs/shortcodes/recent)
+    - [Call To Action Shortcode](https://alpha.oxypteros.com/docs/shortcodes/cta)
+    - [Numbered List Shortcode](https://alpha.oxypteros.com/docs/shortcodes/num-list)
+    - [FAQ Shortcode](https://alpha.oxypteros.com/docs/shortcodes/faq)
+    - [About Shortcode](https://alpha.oxypteros.com/docs/shortcodes/about)
+    - [Status Card Shortcode](https://alpha.oxypteros.com/docs/shortcodes/status-card)
+    - [Social Networks Shortcode](https://alpha.oxypteros.com/docs/shortcodes/social)
 <!--
 ```
 ├── Content Creation 
