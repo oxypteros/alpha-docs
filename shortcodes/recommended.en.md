@@ -4,7 +4,7 @@ date = "2025-05-31T13:18:07+02:00"
 lastmod = ""
 layout = "page"
 
-title = "Recommended"
+title = "Recommended Posts"
 author = "oxypteros"
 license = "CC0"
 series = "Alpha Docs"
@@ -30,9 +30,9 @@ Displays a list of recommended posts as card links with the **title**, series, c
 ### Usage
 - Add `recommend = true` in the frontmatter of the content you want to highlight.
 - Use this shortcode on the **homepage** and/or **section pages** (i.e. `_index.md`).
-- Posts published within the **7 days from the last build** will display a **New** badge.
+- Posts published within **7 days from the latest site build** will show a **New** badge..
 
-**Tip:**  If you set a `LIMIT`, the most recent recommended posts (*sorted by date*) will appear, up to that number..
+**Tip:**  If you set a `LIMIT`, the most recent recommended posts (*sorted by date*) will appear, up to that number.
 
 
 ### Parameters Reference
