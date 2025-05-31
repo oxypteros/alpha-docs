@@ -52,7 +52,9 @@ LIMIT
 #### Error Codes
 ocd-sc-181
 : Unrecognized parameter detected.
+
 ocd-sc-182
 : Invalid number or non integer value.
+
 ocd-sc-183
 : No pages marked with `recommended = true`
