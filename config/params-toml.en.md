@@ -69,7 +69,6 @@ notice in the footer (`© 2025–CurrentYear`).
 motto
 : `motto = "\"Unleash your words\""` --- (**string**, optional)
 : A short tagline motto shown in the footer. 
-: Hidden on smaller screens if longer than twenty characters (to prevent layout issues).
 
 noCookies_snackbar
 : `noCookies_snackbar =  true` --- (**boolean**, optional)
