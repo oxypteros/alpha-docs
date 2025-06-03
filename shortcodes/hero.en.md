@@ -46,7 +46,8 @@ LINK-LABEL="View a complete list of our cases"
 A simple text-based hero shortcode with **title**, **subtitle**, and **two links**. (One styled as a *button* and one as a *standard link*.) 
 
 ### Usage
-Use on *homepage* and/or *section pages* (`_index.md`).
+- Use on *homepage* and/or *section pages* (`_index.md`).
+- The `TITLE` and `SUBTITLE` values use their **last character** as a decorative element (*different color*). For best aesthetics, it’s **strongly recommended** to end both with a **punctuation mark** (e.g. `.` `?` `!` `:` `;`).
 
 **Tip:** Paste this shortcode at the top of your `_index.md` file to add a hero section.
 ### Parameters Reference
