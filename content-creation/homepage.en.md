@@ -26,7 +26,7 @@ You can create it with the following command:
 ```bash
 hugo new content --kind home _index.md
 ```
-**Note**: If you run `hugo server -D` you can preview the draft demo content that ships with Alpha. 
+**Note**: If you run `hugo server -D` you can preview the draft demo homepage (`content/_index.md`) that ships with Alpha. 
 
 ## Layout
 Home layout is intentionally empty to give you full creative control. You’re expected to build your homepage using [Alpha's shortcodes](/docs/shortcodes "Alpha's shortcodes documentation") inside the `_index.md` file.
@@ -78,7 +78,6 @@ description
 : A short description for metadata.
 : For best SEO, keep it between 50–160 characters.
 : OCD warning if omitted.
-: Default: empty.
 
 [^1]: Only essential fields are listed: Default page fields, layout affecting options, and custom Alpha additions. 
 See the [full list of supported frontmatter fields](https://gohugo.io/content-management/front-matter/#fields) in Hugo.
