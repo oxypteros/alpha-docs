@@ -29,7 +29,12 @@ Displays a featured post with a title, summary, and **Read Now** link.
 
 ### Usage
 - Set `featured = true` in the frontmatter of the content page you want to feature.
-- Use this shortcode on the homepage and/or section pages (i.e. _index.md).
+- Use this shortcode on the homepage and section pages (i.e. `_index.md`).
+- The shortcode displays the page summary based on Hugo’s priority:
+    1. A manually defined `summary` in the front matter.
+    2. A `<!--more-->` marker in the Markdown content.
+    3. An automatically generated excerpt (first `~70` words).
+Alpha **recommends** using a **manually defined** frontmatter summary (`summary = ""`) for better readability, visual consistency, and SEO.
 
 **Tip:** Only one featured post is shown at a time. If multiple posts are marked, the most recent one (*by date*) is selected.
 ### Parameters Reference
