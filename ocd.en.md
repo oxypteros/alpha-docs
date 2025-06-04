@@ -61,7 +61,7 @@ If you experience a **persistent error** that doesn’t go away (even after the 
 ### Limitations
 OCD has one significant limitation.
 
-> Some errors are **not** detected until you **visit** the page containing them.
+> Most errors are **not** detected until you **visit** the page containing them.
 
 Resolving this limitation would require adding dependencies, which I want to avoid to keep OCD fully **self-contained** and **out-of-the-box** for all Alpha users.
 

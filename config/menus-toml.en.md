@@ -17,7 +17,7 @@ recommended = false
 featured = false
 description = "Alpha theme menu configuration: Customize main/footer menus, add social links with icons, manage entries."
 +++
-{{< status-card TITLE="Before we begin" TYPE="warning">}}
+{{< status-card TITLE="Before you begin" TYPE="warning">}}
 If you **didn't** use the **Alpha Starter Site**, copy the entire **config folder** (`themes/alpha/config/`) to your site's root directory before editing anything. 
 This ensures that your changes are preserved and won’t be overwritten by future Alpha updates.
 {{< /status-card>}}
@@ -51,7 +51,8 @@ Alpha supports six specific menu identifiers:
 
 To disable a menu entry, either delete its keys or comment out the entire block:
 ```toml
-[[main]]          # This entry will not render       
+# This entry will not render  
+# [[main]]               
 #  name = "Home"   
 #  url = "/"       
 #  weight = 100    

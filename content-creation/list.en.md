@@ -24,7 +24,7 @@ A section is any folder within the `content/` directory that contains **content 
 
 In Alpha, a list page can also act as a transitional landing page between different parts of a series. This is particularly useful when the previous part exists **outside** the section and the next part is a **child within it** or when one series ends and another begins.
 
-**Note**: Don’t confuse a section list page with the `_index.md` in the **root** of the `content/` ([homepage](/docs/content-creation/homepage)).
+**Note**: Don’t confuse a section list page with the `_index.md` in the **root** of the `content/` folder ([homepage](/docs/content-creation/homepage)).
 
 ## Creation
 A list page is automatically recognized by Hugo when an `_index.md` file exists inside a subfolder of `content/`.

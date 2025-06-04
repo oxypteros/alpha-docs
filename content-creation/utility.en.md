@@ -27,11 +27,11 @@ Its purpose is to make *"utility pages"* feel almost *hardcoded*, fully integrat
 ## Creation
 Create a `utility` page with all supported frontmatter using:
 ```bash
-hugo new content --kind utility path/filename.md
+hugo new content --kind utility [path]/[filename].md
 ```
 Or as a **page bundle**:
 ```bash
-hugo new content --kind utility path/folder-name/index.md
+hugo new content --kind utility [path]/[folder-name]/index.md
 ```
 **Note**: If you omit the `--kind utility` flag, Hugo will use the `default.md` archetype that create a page with only basic frontmatter and you will need to manually add `layout = utility`.
 

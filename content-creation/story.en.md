@@ -25,11 +25,11 @@ Stories mimics the simplicity of a book page, offering a minimal, immersive read
 ## Creation
 To create a story with all supported frontmatter keys:
 ```bash
-hugo new content --kind story path/filename.md
+hugo new content --kind story [path]/[filename].md
 ```
 Or as a **page bundle**:
 ```bash
-hugo new content --kind story path/folder-name/index.md
+hugo new content --kind story [path]/[folder-name]/index.md
 ```
 **Note**: If you omit the `--kind story` flag, Hugo will use the default archetype that create a page with only basic frontmatter keys and you will need to manually add `layout = story`.
 

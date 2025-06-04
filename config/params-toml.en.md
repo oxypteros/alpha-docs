@@ -17,7 +17,7 @@ recommended = false
 featured = false
 description = "Alpha's params.toml guide: Control theme specific settings for layout (pseudologo, motto), features (prefetch, search), integrations, and admin options."
 +++
-{{< status-card TITLE="Before we begin" TYPE="warning">}}
+{{< status-card TITLE="Before you begin" TYPE="warning">}}
 If you **didn't** use the **Alpha Starter Site**, copy the entire **config folder** (`themes/alpha/config/`) to your site's root directory before editing anything. 
 This ensures that your changes are preserved and won’t be overwritten by future Alpha updates.
 {{< /status-card>}}
@@ -52,7 +52,7 @@ ocd_enabled = true
 ```
 
 ## Best Practices
-You’re free to enable, disable, or customize each key to suit your site’s needs. Keys that require further explanation (such as `ocd_enabled` or `tailwind_enabled`) have dedicated pages in the [Alpha documentation](/docs).
+You’re free to enable, disable, or customize each key to suit your site’s needs. Keys that require further explanation have dedicated pages in the [Alpha documentation](/docs).
 
 ## Keys Reference
 pseudologo_enabled
@@ -84,6 +84,7 @@ visitor_settings
 ocd_enabled
 : `ocd_enabled = true` --- (**boolean**, optional)
 : Enables the OCD for local development.
+: [OCD](/docs/integrations/search) documentation.
 : Default value: `true`
 
 prefetch_enabled
@@ -99,8 +100,10 @@ tailwind_enabled
 pagefind_enabled
 : `pagefind_enabled = false` --- (**boolean**, optional)
 : Enables Alpha’s built-in search functionality using Pagefind.
-: Default value: false
+: [Pagefind integration](/docs/integrations/search) guide.
+: Default value: `false`
 
 goatcounter_prefix
 : `goatcounter_prefix = "alpha"` --- (**string**, optional)
 : Defines your GoatCounter site ID. Enables anonymous traffic analytics if set.
+: [GoatCounter integration](/docs/integrations/analytics) guide.

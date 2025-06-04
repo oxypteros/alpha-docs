@@ -21,8 +21,10 @@ Alpha offers **frontmatter archetypes** specified for each layout, (`page`, `sto
 
 To create a page using a specific archetype, use the command:
 ```bash
-hugo new content --kind <archetype> path/filename.md
+hugo new content --kind [archetype] [path]/filename.md
 ```
+**Note:** Don't start the `[path]` with `/`.
+
 ### Creating Sections and Pages.
 Each archetype corresponds to a layout: `page`, `story`, `utility`, `home`, `list`, `taxonomy`, `terms`.
 

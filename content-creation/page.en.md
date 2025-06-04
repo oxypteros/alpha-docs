@@ -19,7 +19,7 @@ description = "Alpha theme Page layout guide. Master frontmatter for titles, dat
 +++
 ## Overview
 A **page** is any Markdown file that:
-- Is **not** `_index.md`
+- Is **not** an `_index.md` file.
 - **Does not** specify a layout value in its frontmatter (or explicitly uses `"page"`)
 
 This is Alpha’s default layout for content and is ideal for **articles**, **blog posts**, or **general textual content**.
@@ -28,11 +28,11 @@ This is Alpha’s default layout for content and is ideal for **articles**, **bl
 ## Creation
 Use the following command to create a page with all supported frontmatter keys:
 ```bash
-hugo new content --kind page path/filename.md
+hugo new content --kind page [path]/[filename].md
 ```
 Or as **page bundle**:
 ```bash
-hugo new content --kind page path/folder-name/index.md
+hugo new content --kind page [path]/[folder-name]/index.md
 ```
 **Note**: If you omit the `--kind page` flag, Hugo will use the `default.md` archetype that create a page with only basic frontmatter keys.
 

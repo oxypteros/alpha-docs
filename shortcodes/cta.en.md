@@ -50,7 +50,7 @@ A simple text-based **Call To Action** shortcode with **title**, Markdown styled
 ### Parameters Reference
 
 TITLE
-: : `TITLE="Example title"` --- (**string**, optional) 
+: `TITLE="Example title"` --- (**string**, optional) 
 : H2 heading.
 
 BTN-TEXT

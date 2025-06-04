@@ -20,13 +20,12 @@ description = "Add search to your Alpha site using Pagefind. Guide covers enabli
 Alpha's search functionality is powered by Pagefind. You can learn more about it on the [official website](https://pagefind.app/ "Pagefind website") or experience it directly by using the search feature on this site.
 
 ## Enable Search
-Search is disabled by default. To enable it:
-- Set `pagefind_enabled = true` in `/config/_default/params.toml`.
+To enable search, (disabled by default):
+1. Set `pagefind_enabled = true` in `/config/_default/params.toml`. 
+(This enables the search button and Alpha's JavaScript required for the search functionality.)
+2. Add **Pagefind** to your build.
 
-This enables the search button and Alpha's JavaScript required for the search functionality.
-For search to **actually work**, you also need to add **Pagefind** to your build.
-
-## Add Pagefind to Your Build
+### Add Pagefind to Your Build
 Integrate Pagefind directly into your build command to simplify setup.
 
 If you deploy your site using services like **Vercel**, **Netlify**, or **Cloudflare Pages**, update your **build command** in the respective platform settings to:
