@@ -101,7 +101,7 @@ You’ll find this file at: `themes/alpha/netlify.toml`
 
 This file is a starting point. For a complete reference, see the official [Netlify netlify.toml documentation](https://docs.netlify.com/configure-builds/file-based-configuration/).
 
-{{< status-card TITLE="" TYPE="warning">}}
+{{< status-card TITLE="netlify.toml" TYPE="warning">}}
 Settings defined in `netlify.toml` override those in the Netlify dashboard.
 Alpha recommends using the file **only** for settings that can't be configured in the UI.
 {{< /status-card >}}
