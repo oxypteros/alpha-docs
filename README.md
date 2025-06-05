@@ -35,22 +35,30 @@ Thank you for being part of the project!
     - [About Shortcode](https://alpha.oxypteros.com/docs/shortcodes/about)
     - [Status Card Shortcode](https://alpha.oxypteros.com/docs/shortcodes/status-card)
     - [Social Networks Shortcode](https://alpha.oxypteros.com/docs/shortcodes/social)
+  - [Content Creation](https://alpha.oxypteros.com/docs/content-creation)
+    - [Homepage](https://alpha.oxypteros.com/docs/content-creation/homepage)
+    - [List Page (Sections)](https://alpha.oxypteros.com/docs/content-creation/list)
+    - [Page](https://alpha.oxypteros.com/docs/content-creation/page)
+    - [Page Markdown](https://alpha.oxypteros.com/docs/content-creation/page-markdown)
+    - [Story](https://alpha.oxypteros.com/docs/content-creation/story)
+    - [Story Markdown](https://alpha.oxypteros.com/docs/content-creation/story-markdown)
+    - [Utility](https://alpha.oxypteros.com/docs/content-creation/utility)
+  -[Multilingual](https://alpha.oxypteros.com/docs/multilingual)
+    -[Single Language](https://alpha.oxypteros.com/docs/multilingual/single-language)
+    -[Multiple Languages](https://alpha.oxypteros.com/docs/multilingual/multiple-languages)
+    -[Translating Alpha](https://alpha.oxypteros.com/docs/multilingual/translating-alpha)
+  -[Integrations](https://alpha.oxypteros.com/docs/integrations)
+    -[Search](https://alpha.oxypteros.com/docs/integrations/search)
+    -[Web Analytics](https://alpha.oxypteros.com/docs/integrations/analytics)
+    -[Translating Alpha](https://alpha.oxypteros.com/docs/multilingual/translating-alpha)
+  - [Host & Deployment](https://alpha.oxypteros.com/docs/deployment)
+    - [Cloudflare Pages](https://alpha.oxypteros.com/docs/depoyment/cloudflare)
+    - [Netlify](https://alpha.oxypteros.com/docs/deployment/netlify)
+    - [Vercel](https://alpha.oxypteros.com/docs/deployment/vercel)
 <!--
 ```
-├── Content Creation 
-│   ├── Homepage
-│   ├── List Page (Section)
-│   ├── Page 
-│   ├── Page Markdown
-│   ├── Story
-│   ├── Story Markdown
-│   ├── Utility
-│   ├── Taxonomy (To do)
-│   └── Terms (To do)
-├── Multilingual (Category: Content) 
-│   ├── Single Language
-│   ├── Multiple Language
-│   └── Translating Alpha
+
+
 ├── Integrations (Category: Integrations)
 │   ├── Pagefind
 │   ├── Contact (to-do)
