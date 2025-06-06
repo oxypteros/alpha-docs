@@ -11,11 +11,17 @@ series = "Alpha Docs"
 description = "Official Alpha theme documentation: Learn to install, to configure, how-to information, and create perfectly formatted content with Hugo and Alpha theme."
 +++
 {{< text-snippet >}}
+
 In the Alpha documentation, I aim to explain Alpha, from installation to everyday use, in the most concise and straightforward way possible.
 My goal is to make it approachable for newcomers to Hugo, while still keeping it efficient for more experienced users.
+
 {{< /text-snippet >}}
+
 {{< num-list TITLE="Contents" STYLE="card-list">}}
+
 {{< cta TITLE="Support Alpha" BTN-LINK="/support" BTN-TEXT="Support Alpha">}}
+
 Although Alpha is a solo project, every helping hand is welcome.
 From *translations* and *bug reports* to *feedback* or *sponsorship*, it all helps.
+
 {{< /cta>}}
