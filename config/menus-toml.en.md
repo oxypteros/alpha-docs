@@ -16,10 +16,15 @@ categories = ["Configuration"]
 recommended = false
 featured = false
 description = "Alpha theme menu configuration: Customize main/footer menus, add social links with icons, manage entries."
+# SEO
+seo_type = "TechArticle"
+seo_image = "menus-toml-alpha-docs-seo.png"
 +++
 {{< status-card TITLE="Before you begin" TYPE="warning">}}
+
 If you **didn't** use the **Alpha Starter Site**, copy the entire **config folder** (`themes/alpha/config/`) to your site's root directory before editing anything. 
 This ensures that your changes are preserved and won’t be overwritten by future Alpha updates.
+
 {{< /status-card>}}
 
 ## Overview

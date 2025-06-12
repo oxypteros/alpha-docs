@@ -9,6 +9,9 @@ title = "Alpha Docs"
 series = "Alpha Docs"
   weight = 10
 description = "Official Alpha theme documentation: Learn to install, to configure, how-to information, and create perfectly formatted content with Hugo and Alpha theme."
+# SEO
+seo_type = "TechArticle"
+seo_image = "alpha-docs-seo.png"
 +++
 {{< text-snippet >}}
 

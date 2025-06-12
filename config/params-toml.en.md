@@ -15,11 +15,16 @@ categories = ["Configuration"]
 
 recommended = false
 featured = false
-description = "Alpha's params.toml guide: Control theme specific settings for layout (pseudologo, motto), features (prefetch, search), integrations, and admin options."
+description = "Alpha theme params.toml guide: Control theme specific settings for layout (pseudologo, motto), features (prefetch, search), integrations, and admin options."
+# SEO
+seo_type = "TechArticle"
+seo_image = "params-toml-alpha-docs-seo.png"
 +++
 {{< status-card TITLE="Before you begin" TYPE="warning">}}
+
 If you **didn't** use the **Alpha Starter Site**, copy the entire **config folder** (`themes/alpha/config/`) to your site's root directory before editing anything. 
 This ensures that your changes are preserved and won’t be overwritten by future Alpha updates.
+
 {{< /status-card>}}
 
 ## Overview

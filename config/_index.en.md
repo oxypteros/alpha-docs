@@ -9,13 +9,19 @@ title = "Configuration Files"
 series = "Alpha Docs"
   weight = 110
 description = "Alpha theme configuration documentation. Customize global settings, understand options in hugo.toml and Alpha Specific in params.toml."
+# SEO
+seo_type = "TechArticle"
+seo_image = "config-alpha-docs-seo.png"
 +++
 {{< text-snippet >}}
+
 My initial goal for Alpha was to use as few Alpha **specific configuration** keys as possible.
 While I can’t say that goal was fully achieved, I believe I avoided unnecessary complexity without compromising Alpha’s customization features.
+
 {{< /text-snippet >}}
 
 {{< text-content>}}
+
 ## Overview
 The main configuration files of Alpha are located in the `config/` folder inside Alpha's theme folder `/themes/alpha/config/_default`:
 ``` bash
@@ -59,14 +65,18 @@ cp -r themes/alpha/config/_default config/
 ```
 3. **Carefully integrate any custom values** you had in your old config.
 4. **Test** your site thoroughly before deploying.
+
 {{< /text-content>}}
 
 {{< num-list TITLE="Config Files" STYLE="card-list">}}
+
 {{< faq TITLE="Questions no one asked" SUBTITLE="But I’m answering them anyway.">}}
+
 ## Can I use Hugo's default configuration keys in hugo.toml?
 Hugo is an extensive and potentially complex ecosystem. It's nearly impossible to test every possible configuration. You can use any setting that enhances your site, but be sure to thoroughly **test for conflicts** with Alpha’s defaults before deploying to production.
 
 ## I don't like TOML. Can I use another format?
 Alpha uses **TOML exclusively** because I find it beginner friendly, with clear, readable **key value pairs**.
 If you prefer YAML or JSON, you’ll need to manually adapt Alpha's config files to your desired format.
+
 {{< /faq >}}

@@ -16,8 +16,12 @@ categories = ["Get Started"]
 recommended = false
 featured = false
 description = "Learn how to install the Alpha Hugo theme. Instructions for fresh setups, adding to existing projects, and enabling optional Tailwind CSS support."
+# SEO
+seo_type = "TechArticle"
+seo_image = "install-alpha-docs-seo.png"
 +++
 {{< status-card TITLE="Prerequisites" TYPE="warning" >}}
+
 1. To follow this guide, your system should have the following installed:  
     - **Hugo** (version **`0.146.1`**    or later)
     - A **terminal** (**PowerShell 7** on Windows)
@@ -25,6 +29,7 @@ description = "Learn how to install the Alpha Hugo theme. Instructions for fresh
 2. Optional (*method-dependent*) you will need **Git**, a **GitHub account**, **Go**
 
 If you're missing any of these or you're not sure what they are, start with the [Get Started: From Zero with Zero](/get-started) guide.
+
 {{< /status-card >}}
 
 ## Overview

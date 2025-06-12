@@ -15,11 +15,16 @@ categories = ["Configuration"]
 
 recommended = false
 featured = false
-description = "Alpha's languages.toml documentation: Define supported languages, set their display order and names for your Alpha Hugo site, and understand key configuration options."
+description = "Alphas languages.toml documentation: Define supported languages, set their display order and names for your Alpha Hugo site, and understand key configuration options."
+# SEO
+seo_type = "TechArticle"
+seo_image = "languages-toml-alpha-docs-seo.png"
 +++
 {{< status-card TITLE="Before you begin" TYPE="warning">}}
+
 If you **didn't** use the **Alpha Starter Site**, copy the entire **config folder** (`themes/alpha/config/`) to your site's root directory before editing anything. 
 This ensures that your changes are preserved and won’t be overwritten by future Alpha updates.
+
 {{< /status-card>}}
 
 ## Overview
