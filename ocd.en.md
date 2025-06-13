@@ -4,7 +4,7 @@ date = "2025-05-30T17:39:54+02:00"
 lastmod = ""
 layout = "page"
 
-title = "OCD"
+title = "O.C.D"
 author = "oxypteros"
 license = "CC0"
 github_edit = true
@@ -16,9 +16,14 @@ categories = ["Content"]
 recommended = false
 featured = true
 description = "An overview of the OCD helper and how it aids with Alpha theme configuration and troubleshooting."
+# SEO
+seo_type = "TechArticle"
+seo_image = "ocd-alpha-docs-seo.png"
 +++
 {{< text-snippet TITLE="Your Alpha Content Assistant">}}
+
 OCD is a rudimentary helper for everything Alpha related. It can assist with **almost every theme issue** you might encounter and help with your daily use of the theme.
+
 {{< /text-snippet >}}
 
 ## Overview
@@ -33,7 +38,8 @@ OCD is **enabled by default** in Alpha. You can disable it in your `config/_defa
 ```toml
 ocd_enabled = false
 ```
-**Note:** OCD runs **only in your local development environment**. It does **not** affect production builds in any way.
+> OCD runs **only in your local development environment**. 
+> It does **not** affect production builds in any way.
 
 When enabled, you'll see a *floating action button* (**FAB**) at the bottom-right corner of the screen.
 - If no errors are detected, clicking the FAB will open the **settings menu**, where you can:
@@ -68,10 +74,13 @@ Resolving this limitation would require adding dependencies, which I want to avo
 To overcome this, you should **manually preview the pages you edit or create** in your local environment to ensure no errors go undetected.
 
 {{< status-card TITLE="Attention" TYPE="warning">}}
+
 OCD can inform, but it **cannot fix errors** automatically.
 If no error is shown, that doesn't necessarily mean everything is working perfectly, always validate your site thoroughly before release.
+
 {{< /status-card >}}
 
+<!--
 ## Error Code Reference [^1]
 ocd-config-100
 : `title` value is missing in `hugo.toml`
@@ -85,4 +94,4 @@ ocd-params-100
 ocd-params-101
 : `established_year` value set to future year in `config/_default/params.toml`
 
-[^1]: Incomplete list (under development)
+[^1]: Incomplete list (under development)-->
