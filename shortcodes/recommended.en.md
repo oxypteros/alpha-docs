@@ -4,9 +4,9 @@ date = "2025-05-31T13:18:07+02:00"
 lastmod = ""
 layout = "page"
 
-title = "Recommended Posts"
+title = "Recommended Posts Shortcode"
 author = "oxypteros"
-license = "CC0"
+license = "CC-BY-SA"
 github_edit = true
 series = "Alpha Docs"
   parts = "Shortcodes"
@@ -16,9 +16,14 @@ categories = ["Shortcodes"]
 recommended = false
 featured = false
 description = "Display a list of recommended posts with optional title and limit. Automatically highlights new content."
+# SEO
+seo_type = "TechArticle"
+seo_image = "recommended-shortcode-alpha-docs-seo.png"
 +++
 ## Example: 
+
 {{< recommended-example TITLE="Recommended Cases" LIMIT="2" >}}
+
 ## Code
 ``` go-html-template
 {{</* recommended TITLE="Recommended Cases" LIMIT="2" */>}} 

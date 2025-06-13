@@ -4,9 +4,9 @@ date = "2025-05-31T15:27:06+02:00"
 lastmod = ""
 layout = "page"
 
-title = "Numbered List"
+title = "Numbered List Shortcode"
 author = "oxypteros"
-license = "CC0"
+license = "CC-BY-SA"
 github_edit = true
 series = "Alpha Docs"
   parts = "Shortcodes"
@@ -16,8 +16,12 @@ categories = ["Shortcodes"]
 recommended = false
 featured = false
 description = "Alpha's numbered list shortcode guide. Display ordered child pages using card, pill, list, or card-list styles. Ideal for chapters or ordered tutorials. Limit items shown."
+# SEO
+seo_type = "TechArticle"
+seo_image = "num-list-shortcode-alpha-docs-seo.png"
 +++
 ## Example:
+
 {{< num-list-example TITLE="Analysis of Forensic Evidence" LIMIT="3">}}
 
 ## Code

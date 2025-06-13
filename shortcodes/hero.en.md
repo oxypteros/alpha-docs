@@ -18,7 +18,6 @@ featured = false
 description = "Documentation for Alpha's hero shortcode. Create a text-based hero section with title, subtitle, and two call-to-action links. Ideal for homepages or section intros."
 # SEO
 seo_type = "TechArticle"
-seo_author = "oxypteros"
 seo_image = "hero-shortcode-alpha-docs-seo.png"
 +++
 ## Example:

@@ -4,9 +4,9 @@ date = "2025-05-31T16:07:43+02:00"
 lastmod = ""
 layout = "page"
 
-title = "Frequently Asked Questions"
+title = "Frequently Asked Questions Shortcode"
 author = "oxypteros"
-license = "CC0"
+license = "CC-BY-SA"
 github_edit = true
 series = "Alpha Docs"
   parts = "Shortcodes"
@@ -16,12 +16,17 @@ categories = ["Shortcodes"]
 recommended = false
 featured = false
 description = "Learn to use Alpha's frequently Asked Questions shortcode. Format simple text FAQs with H2 questions & paragraph answers. Includes title/subtitle options & usage guide."
+# SEO
+seo_type = "TechArticle"
+seo_image = "faq-shortcode-alpha-docs-seo.png"
 +++
 ## Example
+
 {{< faq-example
 TITLE="Frequently Asked Questions"
 SUBTITLE="The last sight of the last donut!"
 >}}
+
 ## When and how did the *"Last Donut"* disappear?
  It vanished from the breakroom box between **9:05** and **9:37**. There were no signs of struggle, no witnesses, and no note left behind.
 
@@ -33,6 +38,7 @@ SUBTITLE="The last sight of the last donut!"
  It begs the question: 
  [Was this a planned operation, or an incredibly lucky, impulsive grab?](#example)
  The mystery endures.
+
 {{< /faq-example >}}
 
 ## Code
@@ -41,6 +47,7 @@ SUBTITLE="The last sight of the last donut!"
 TITLE="Frequently Asked Questions"
 SUBTITLE="The last sight of the last donut!"
 */>}}
+
 ## When and how did the *"Last Donut"* disappear?
 It vanished from the breakroom box between **9:05** and **9:37**. There were no signs of struggle, no witnesses, and no note left behind.
 
@@ -52,6 +59,7 @@ The sheer audacity and efficiency of the act are staggering. The complete lack o
 It begs the question: 
 [Was this a planned operation, or an incredibly lucky, impulsive grab?](/posts/the-last-donut)
 The mystery endures.
+
 {{</* /faq */>}}
 ```
 ### Overview

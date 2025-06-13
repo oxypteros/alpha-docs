@@ -4,9 +4,9 @@ date = "2025-05-31T10:48:52+02:00"
 lastmod = ""
 layout = "page"
 
-title = "Featured"
+title = "Featured Article Shortcode"
 author = "oxypteros"
-license = "CC0"
+license = "CC-BY-SA"
 github_edit = true
 series = "Alpha Docs"
   parts = "Shortcodes"
@@ -16,6 +16,9 @@ categories = ["Shortcodes"]
 recommended = false
 featured = false
 description = "Learn how to use the featured shortcode in the Alpha Hugo theme to display highlighted posts on your homepage or section pages. Supports multiple styles like plain, simple, and banner."
+# SEO
+seo_type = "TechArticle"
+seo_image = "featured-shortcode-alpha-docs-seo.png"
 +++
 <!--more-->
 ## Example:

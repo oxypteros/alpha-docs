@@ -4,9 +4,9 @@ date = "2025-05-31T16:23:43+02:00"
 lastmod = ""
 layout = "page"
 
-title = "Social Networks"
+title = "Social Networks Shortcode"
 author = "oxypteros"
-license = "CC0"
+license = "CC-BY-SA"
 github_edit = true
 series = "Alpha Docs"
   parts = "Shortcodes"
@@ -16,8 +16,12 @@ categories = ["Shortcodes"]
 recommended = false
 featured = false
 description = "Documentation for Alpha's social shortcode. Display a list of social media icons-links from your configured menu."
+# SEO
+seo_type = "TechArticle"
+seo_image = "social-shortcode-alpha-docs-seo.png"
 +++
 ## Example:
+
 {{< social-example LIMIT="17">}}
 
 ## Code

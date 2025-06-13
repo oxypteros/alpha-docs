@@ -4,9 +4,9 @@ date = "2025-05-31T14:23:15+02:00"
 lastmod = ""
 layout = "page"
 
-title = "Text Content"
+title = "Text Content Shortcode"
 author = "oxypteros"
-license = "CC0"
+license = "CC-BY-SA"
 github_edit = true
 series = "Alpha Docs"
   parts = "Shortcodes"
@@ -16,9 +16,14 @@ categories = ["Shortcodes"]
 recommended = false
 featured = false
 description = "Documentation for Alpha's text content Closed shortcode. Allows embedding styled Markdown content directly into any page layout. Supports inner content."
+# SEO
+seo_type = "TechArticle"
+seo_image = "text-content-shortcode-alpha-docs-seo.png"
 +++
 ## Example:
+
 {{< text-content-example>}}
+
 ## Peer into the Shadows
 I'm *John Smith*, your guide into the complex world of **true crime**. Here, we delve deep into compelling cases from haunting cold files to landmark investigations that shaped history. My focus is on *meticulous research*, *respecting the victims*, and exploring the often *unsettling questions left unanswered*.
 
@@ -31,11 +36,13 @@ This blog
 - and searches for truth within the shadows. 
 
 Explore the archives, and let's investigate together.
+
 {{< /text-content-example >}}
 
 ## Code
 ``` go-html-template
 {{</* text-content */>}} 
+
 ## Peer into the Shadows
 I'm *John Smith*, your guide into the complex world of **true crime**. Here, we delve deep into compelling cases from haunting cold files to landmark investigations that shaped history. My focus is on *meticulous research*, *respecting the victims*, and exploring the often *unsettling questions left unanswered*.
 
@@ -48,6 +55,7 @@ This blog
 - and searches for truth within the shadows. 
 
 Explore the archives, and let's investigate together.
+
 {{</* /text-content */>}}
 ```
 ### Overview

@@ -4,9 +4,9 @@ date = "2025-05-31T16:26:21+02:00"
 lastmod = ""
 layout = "page"
 
-title = "Status Card"
+title = "Status Card Shortcode"
 author = "oxypteros"
-license = "CC0"
+license = "CC-BY-SA"
 github_edit = true
 series = "Alpha Docs"
   parts = "Shortcodes"
@@ -16,22 +16,30 @@ categories = ["Shortcodes"]
 recommended = false
 featured = false
 description = "Documentation for Alpha's status card shortcode. Render styled cards (info, error, warning, success) with Markdown content and optional titles."
+# SEO
+seo_type = "TechArticle"
+seo_image = "status-card-shortcode-alpha-docs-seo.png"
 +++
 ## Example
+
 {{< status-card-example TITLE="Investigation Status" TYPE="info">}}
+
 **Current Status**: Cold Case - *Inactive*
 **Lead Agency:** Los Santos Police Department
 **Last Known Action:** Case review requested (2020) - *No new leads identified*.
 **Contact for Tips:** Los Santos PD Cold Case Unit (**555-1234**)
+
 {{< /status-card-example >}}
 
 ## Code
 ``` go-html-template
-{{</* status-card TITLE="Investigation Status" TYPE="info" */>}} 
+{{</* status-card TITLE="Investigation Status" TYPE="info" */>}}
+
 **Current Status**: Cold Case - *Inactive*
 **Lead Agency:** Los Santos Police Department
 **Last Known Action:** Case review requested (2020) - *No new leads identified*.
 **Contact for Tips:** Los Santos PD Cold Case Unit (**555-1234**)
+
 {{</* /status-card */>}}
 ```
 ### Overview

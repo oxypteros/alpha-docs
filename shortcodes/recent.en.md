@@ -4,9 +4,9 @@ date = "2025-05-31T14:50:40+02:00"
 lastmod = ""
 layout = "page"
 
-title = "Recent Posts"
+title = "Recent Posts Shortcode"
 author = "oxypteros"
-license = "CC0"
+license = "CC-BY-SA"
 github_edit = true
 series = "Alpha Docs"
   parts = "Shortcodes"
@@ -16,9 +16,14 @@ categories = ["Shortcodes"]
 recommended = false
 featured = false
 description = "Display a list of recent posts with optional title and limit. Automatically highlights new content."
+# SEO
+seo_type = "TechArticle"
+seo_image = "recent-shortcode-alpha-docs-seo.png"
 +++
 ## Example: 
+
 {{< recent-example TITLE="Recent Cases" LIMIT="3" >}}
+
 ## Code
 ``` go-html-template
 {{</* recent TITLE="Recent Cases" LIMIT="3" */>}} 

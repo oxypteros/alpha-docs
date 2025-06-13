@@ -4,9 +4,9 @@ date = "2025-05-31T16:16:18+02:00"
 lastmod = ""
 layout = "page"
 
-title = "About"
+title = "About Shortcode"
 author = "oxypteros"
-license = "CC0"
+license = "CC-BY-SA"
 github_edit = true
 series = "Alpha Docs"
   parts = "Shortcodes"
@@ -16,24 +16,32 @@ categories = ["Shortcodes"]
 recommended = false
 featured = false
 description = "Documentation for Alpha's about shortcode. Display minimal author info with an avatar, name, and Markdown biography text."
+# SEO
+seo_type = "TechArticle"
+seo_image = "about-shortcode-alpha-docs-seo.png"
 +++
 ## Example:
+
 {{< about-example AUTHOR="John Smith" AVATAR="oxy.png" >}}
+
  The researcher and writer behind this blog. Driven by a deep fascination with the complexities of criminal cases and the quest for **truth**. 
  
  Join me in the quest to meticulously piecing together stories, analyzing evidence, and exploring the unanswered questions that linger long after the headlines fade.
  
  ***The truth is here!*** *(not out there)*
+
 {{< /about-example >}}
 
 ## Code
 ```go-html-template
 {{</* about AUTHOR="John Smith" AVATAR="oxy.png" */>}}
+
  The researcher and writer behind this blog. Driven by a deep fascination with the complexities of criminal cases and the quest for **truth**. 
  
  Join me in the quest to meticulously piecing together stories, analyzing evidence, and exploring the unanswered questions that linger long after the headlines fade.
  
 ***The truth is here!*** *(not out there)*
+
 {{</* /about */>}}
 ```
 ### Overview

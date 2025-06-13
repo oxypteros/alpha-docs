@@ -4,9 +4,9 @@ date = "2025-05-31T13:01:01+02:00"
 lastmod = ""
 layout = "page"
 
-title = "Text Snippet"
+title = "Text Snippet Shortcode"
 author = "oxypteros"
-license = "CC0"
+license = "CC-BY-SA"
 github_edit = true
 series = "Alpha Docs"
   parts = "Shortcodes"
@@ -16,18 +16,26 @@ categories = ["Shortcodes"]
 recommended = false
 featured = false
 description = "Documentation for the Alpha's text-snippet closing shortcode. Learn to add centered text blocks with optional titles using Markdown content. Params & usage."
+# SEO
+seo_type = "TechArticle"
+seo_image = "text-snippet-shortcode-alpha-docs-seo.png"
 +++
 ## Example
+
 {{< text-snippet-example TITLE="No Crime Too Small, No Clue Too Crumbly">}}
+
 Whether it's a *cold case* that's haunted generations or the *baffling disappearance* of the office's last donut, we believe every puzzle deserves to be solved. 
 Join us as we meticulously **examine** the evidence, **interrogate** the unusual, and **bring closure**, one bizarre case at a time.  
+
 {{< /text-snippet-example >}}
 
 ## Code
 ``` go-html-template
-{{</* text-snippet TITLE="No Crime Too Small, No Clue Too Crumbly" */>}} 
+{{</* text-snippet TITLE="No Crime Too Small, No Clue Too Crumbly" */>}}
+
 Whether it's a *cold case* that's haunted generations or the *baffling disappearance* of the office's last donut, we believe every puzzle deserves to be solved. 
 Join us as we meticulously **examine** the evidence, **interrogate** the unusual, and **bring closure**, one bizarre case at a time. 
+
 {{</* /text-snippet */>}}
 ```
 ### Overview
