@@ -6,7 +6,7 @@ layout = "page"
 
 title = "Content Organization"
 author = "oxypteros"
-license = "CC0"
+license = "CC-BY-SA"
 github_edit = true
 series = "Alpha Docs"
   parts = "Content Structure"
@@ -15,7 +15,7 @@ categories = ["Content"]
 
 recommended = false
 featured = false
-description = "Learn Alpha's recommended content <em>organization</em>. Understand sections, \"`\" page bundles *(required for images)*, _index.md, index.md, and file structure."
+description = "Learn Alpha's recommended content organization. Understand sections, page bundles (required for images), _index.md, index.md, and file structure."
 # SEO
 seo_type = "TechArticle"
 seo_image = "content-organization-alpha-docs-seo.png"

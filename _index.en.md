@@ -6,6 +6,8 @@ layout = "list"
 paginate = false
 
 title = "Alpha Docs"
+author = "oxypteros"
+license = "CC-BY-SA"
 series = "Alpha Docs"
   weight = 10
 description = "Official Alpha theme documentation: Learn to install, to configure, how-to information, and create perfectly formatted content with Hugo and Alpha theme."

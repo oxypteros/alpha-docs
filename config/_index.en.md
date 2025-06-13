@@ -6,6 +6,8 @@ layout = "list"
 paginate = false
 
 title = "Configuration Files"
+author = "oxypteros"
+license = "CC-BY-SA"
 series = "Alpha Docs"
   weight = 110
 description = "Alpha theme configuration documentation. Customize global settings, understand options in hugo.toml and Alpha Specific in params.toml."

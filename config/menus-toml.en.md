@@ -6,7 +6,7 @@ layout = "page"
 
 title = "menus.toml"
 author = "oxypteros"
-license = "CC0"
+license = "CC-BY-SA"
 github_edit = true
 series = "Alpha Docs"
   parts = "Config Files"

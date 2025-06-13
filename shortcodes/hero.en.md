@@ -4,9 +4,9 @@ date = "2025-05-31T10:25:57+02:00"
 lastmod = ""
 layout = "page"
 
-title = "Hero"
+title = "Hero Shortcode"
 author = "oxypteros"
-license = "CC0"
+license = "CC-BY-SA"
 github_edit = true
 series = "Alpha Docs"
   parts = "Shortcodes"
@@ -16,8 +16,13 @@ categories = ["Shortcodes"]
 recommended = false
 featured = false
 description = "Documentation for Alpha's hero shortcode. Create a text-based hero section with title, subtitle, and two call-to-action links. Ideal for homepages or section intros."
+# SEO
+seo_type = "TechArticle"
+seo_author = "oxypteros"
+seo_image = "hero-shortcode-alpha-docs-seo.png"
 +++
 ## Example:
+
 {{< hero-example
 TITLE="Beyond the Yellow Tape!"
 SUBTITLE="We investigate the stories others overlook." 

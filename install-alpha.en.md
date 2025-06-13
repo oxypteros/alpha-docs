@@ -6,8 +6,8 @@ layout = "page"
 
 title = "Install Alpha"
 author = "oxypteros"
+license = "CC-BY-SA"
 github_edit = true
-license = "CC0"
 series = "Alpha Docs"
   parts = "Installation"
   weight = 100
