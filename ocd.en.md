@@ -13,7 +13,7 @@ series = "Alpha Docs"
   weight = 160
 categories = ["Content"]
 
-recommended = false
+recommended = true
 featured = true
 description = "An overview of the OCD helper and how it aids with Alpha theme configuration and troubleshooting."
 # SEO
