@@ -6,7 +6,7 @@ layout = "page"
 
 title = "Web Analytics"
 author = "oxypteros"
-license = "CC0"
+license = "CC-BY-SA"
 github_edit = true
 series = "Alpha Docs"
   parts = "Integrations"
@@ -16,6 +16,9 @@ categories = ["Integrations"]
 recommended = false
 featured = false
 description = "Integrate privacy-friendly GoatCounter analytics in Alpha. Guide covers simple setup, local script usage, opt-out features, and important considerations."
+# SEO
+seo_type = "TechArticle"
+seo_image = "analytics-alpha-docs-seo.png"
 +++
 {{< status-card TITLE="Privacy" TYPE="info">}}
 Discussions about **web privacy**, the pros and cons of **anonymous analytics**, or **legal compliance** with GDPR, CCPA, and similar regulations are beyond the scope of this documentation.

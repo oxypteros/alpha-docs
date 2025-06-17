@@ -6,7 +6,7 @@ layout = "page"
 
 title = "Search"
 author = "oxypteros"
-license = "CC0"
+license = "CC-BY-SA"
 github_edit = true
 series = "Alpha Docs"
   parts = "Integrations"
@@ -16,6 +16,9 @@ categories = ["Integrations"]
 recommended = false
 featured = false
 description = "Add search to your Alpha site using Pagefind. Guide covers enabling the feature, build commands for deployment (Netlify, Vercel, Cloudflare) and local use."
+# SEO
+seo_type = "TechArticle"
+seo_image = "search-alpha-docs-seo.png"
 +++
 Alpha's search functionality is powered by Pagefind. You can learn more about it on the [official website](https://pagefind.app/ "Pagefind website") or experience it directly by using the search feature on this site.
 
