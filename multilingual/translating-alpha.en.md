@@ -6,7 +6,7 @@ layout = "page"
 
 title = "Translating Alpha"
 author = "oxypteros"
-license = "CC0"
+license = "CC-BY-SA"
 github_edit = true
 series = "Alpha Docs"
   parts = "Multilingual"
@@ -16,6 +16,9 @@ categories = ["Content"]
 recommended = false
 featured = false
 description = "Learn how to translate Alpha Hugo theme's interface. Step-by-step guide to creating i18n files for a fully localized site"
+# SEO
+seo_type = "TechArticle"
+seo_image = "translating-alpha-docs-seo.png"
 +++
 Even if your content is in one or more languages other than English, Alpha's **interface** remains in English by default. To build a complete and consistent multilingual website, you’ll need to **translate Alpha** itself into your language(s).
 

@@ -6,7 +6,7 @@ layout = "page"
 
 title = "Multiple Languages"
 author = "oxypteros"
-license = "CC0"
+license = "CC-BY-SA"
 github_edit = true
 series = "Alpha Docs"
   parts = "Multilingual"
@@ -16,6 +16,9 @@ categories = ["Content"]
 recommended = false
 featured = false
 description = "Set up a multilingual Alpha Hugo site. Configure languages, create translated content, and manage URL slugs."
+# SEO
+seo_type = "TechArticle"
+seo_image = "multiple-languages-alpha-docs-seo.png"
 +++
 To enable Alpha's multilingual features, ensure **at least two languages** are defined in `languages.toml`
 

@@ -6,7 +6,7 @@ layout = "page"
 
 title = "Single Language"
 author = "oxypteros"
-license = "CC0"
+license = "CC-BY-SA"
 github_edit = true
 series = "Alpha Docs"
   parts = "Multilingual"
@@ -16,6 +16,9 @@ categories = ["Content"]
 recommended = false
 featured = false
 description = "Use Alpha Hugo theme in a single language other than English. Learn to set your default language (e.g., French, Spanish) in languages.toml."
+# SEO
+seo_type = "TechArticle"
+seo_image = "single-language-alpha-docs-seo.png"
 +++
 If you're planning to use Alpha exclusively in a language **other than English**, you need to tell Hugo that your **default language** is **not** English.
 
