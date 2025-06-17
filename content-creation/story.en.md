@@ -6,7 +6,7 @@ layout = "page"
 
 title = "Story"
 author = "oxypteros"
-license = "CC0"
+license = "CC-BY-SA"
 github_edit = true
 series = "Alpha Docs"
   parts = "Content Creation"
@@ -16,6 +16,9 @@ categories = ["Content"]
 recommended = false
 featured = false
 description = "Alpha theme Story layout guide. Master frontmatter for titles, dates, authors, series, taxonomies, and features like recommended & featured content."
+# SEO
+seo_type = "TechArticle"
+seo_image = "story-alpha-docs-seo.png"
 +++
 ## Overview
 A **story** is any Markdown file that defines `layout = "story"` in its frontmatter.

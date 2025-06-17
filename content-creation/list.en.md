@@ -6,16 +6,19 @@ layout = "page"
 
 title = "List Page (Section)"
 author = "oxypteros"
-license = "CC0"
+license = "CC-BY-SA"
 github_edit = true
 series = "Alpha Docs"
   parts = "Content Creation"
   weight = 430
 categories = ["Content"]
 
-recommended = false
+recommended = true
 featured = false
 description = "Learn to create section landing pages (list pages) in Alpha Hugo theme. Covers _index.md setup, pagination, shortcode customization, and frontmatter."
+# SEO
+seo_type = "TechArticle"
+seo_image = "list-alpha-docs-seo.png"
 +++
 ## Overview
 The **list** (or section) page is an `_index.md` file that serves as the landing page for a content section. It displays a **paginated list** of the pages inside that section. 

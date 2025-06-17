@@ -6,16 +6,19 @@ layout = "page"
 
 title = "Homepage"
 author = "oxypteros"
-license = "CC0"
+license = "CC-BY-SA"
 github_edit = true
 series = "Alpha Docs"
   parts = "Content Creation"
   weight = 420
 categories = ["Content"]
 
-recommended = false
+recommended = true
 featured = false
 description = "Create and customize your Alpha Hugo theme homepage. Learn about _index.md setup, shortcode driven layout, and essential frontmatter options."
+# SEO
+seo_type = "TechArticle"
+seo_image = "homepage-alpha-docs-seo.png"
 +++
 ## Overview
 In most cases, you'll only need to create your homepage once. It serves as the main landing page of your website. It’s ideally the starting point where visitors can learn about your site and navigate to other sections.

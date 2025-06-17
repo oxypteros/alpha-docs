@@ -15,7 +15,7 @@ description = "Discover Alpha theme's shortcodes. Learn how they empower you to 
 seo_type = "TechArticle"
 seo_image = "shortcodes-alpha-docs-seo.png"
 +++
-
+ 
 {{< text-snippet >}}
 
 In Alpha shortcodes play a crucial role. They not only enhance your content beyond Markdown's limitations but also let you design and customize your site.

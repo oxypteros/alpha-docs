@@ -6,7 +6,7 @@ layout = "story"
 
 title = "Story Markdown"
 author = "oxypteros"
-license = "CC0"
+license = "CC-BY-SA"
 github_edit = false
 series = "Alpha Docs"
   parts = "Content Creation"
@@ -18,6 +18,9 @@ tags = ["markdown"]
 recommended = false
 featured = false
 description = "Markdown demo for Alpha's story layout. See examples of headings, lists, links, images, code blocks, tables, and more, with Alpha specific notes."
+# SEO
+seo_type = "TechArticle"
+seo_image = "story-markdown-alpha-docs-seo.png"
 +++
 This is a demo page showcasing the Markdown styles used in the **story layout** of Alpha. This layout was designed exclusively for **stories**, **narratives**, and any type of **creative or reflective writing**. To use this layout set in the frontmatter `layout = "story"`. 
 

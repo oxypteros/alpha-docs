@@ -6,7 +6,7 @@ layout = "page"
 
 title = "Page Markdown"
 author = "oxypteros"
-license = "CC0"
+license = "CC-BY-SA"
 github_edit = true
 series = "Alpha Docs"
   parts = "Content Creation"
@@ -17,6 +17,9 @@ tags = ["markdown"]
 recommended = false
 featured = false
 description = "Markdown demo for Alpha's page layout. See examples of headings, lists, links, images, code blocks, tables, and more, with Alpha specific notes"
+# SEO
+seo_type = "TechArticle"
+seo_image = "page-markdown-alpha-docs-seo.png"
 +++
 ## Overview
 This is a demo page showcasing the markdown styles used in the **page layout** of Alpha.
