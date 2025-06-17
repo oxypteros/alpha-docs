@@ -6,7 +6,7 @@ layout = "page"
 
 title = "Vercel"
 author = "oxypteros"
-license = "CC0"
+license = "CC-BY-SA"
 github_edit = false
 series = "Alpha Docs"
   parts = "Deployment"
@@ -16,6 +16,9 @@ categories = ["Deployment"]
 recommended = false
 featured = false
 description = "Vercel deployment for Alpha theme: Configure project settings, build commands, env vars, manage domains, and leverage vercel.json for advanced control."
+# SEO
+seo_type = "TechArticle"
+seo_image = "vercel-alpha-docs-seo.png"
 +++
 Vercel allows deployment by **importing a Git repository** from *GitHub*, *GitLab*, *BitBucket* or *third-party platforms*.
 

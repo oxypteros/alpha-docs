@@ -6,7 +6,7 @@ layout = "page"
 
 title = "Netlify"
 author = "oxypteros"
-license = "CC0"
+license = "CC-BY-SA"
 github_edit = true
 series = "Alpha Docs"
   parts = "Deployment"
@@ -16,6 +16,9 @@ categories = ["Deployment"]
 recommended = false
 featured = false
 description = "Netlify deployment for Alpha theme: Learn to deploy via Git/upload, set build commands, env vars (Hugo/Node), manage baseURL, and use netlify.toml."
+# SEO
+seo_type = "TechArticle"
+seo_image = "netlify-alpha-docs-seo.png"
 +++
 Netlify allows deployment by **importing a Git repository** from *GitHub*, *GitLab*, *BitBucket* and *Azure DevOps* or with **direct upload** .
 

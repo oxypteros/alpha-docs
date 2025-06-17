@@ -6,7 +6,7 @@ layout = "page"
 
 title = "Cloudflare Pages"
 author = "oxypteros"
-license = "CC0"
+license = "CC-BY-SA"
 github_edit = true
 series = "Alpha Docs"
   parts = "Host & Deploy"
@@ -16,6 +16,9 @@ categories = ["Host & Deploy"]
 recommended = false
 featured = false
 description = "Cloudflare Pages deployment guide for Alpha Hugo theme. Covers Git-based and direct upload methods, build configurations, environment variables and optional security headers."
+# SEO
+seo_type = "TechArticle"
+seo_image = "cloudflare-alpha-docs-seo.png"
 +++
 Cloudflare Pages allows you to deploy your site by either **importing a Git repository** from *GitHub* or *GitLab*, or by using a **direct upload**.
 
