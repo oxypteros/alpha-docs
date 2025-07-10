@@ -47,4 +47,4 @@ Since your site remains single-language, you can [create your content](/docs/con
 
 Hugo will automatically tag each page with the appropriate language code so that search engines know how to interpret your content.
 
-If there's **even a small chance** you'll add more languages later, it's worth reading the next part. Otherwise, feel free to skip ahead to [Translating Alpha](/docs/multilingual/translating-alpha)
+If there's **even a small chance** you'll add more languages later, it's worth reading the next part. Otherwise, feel free to skip ahead to [Translating Alpha](/docs/multilingual/translating-alpha/)

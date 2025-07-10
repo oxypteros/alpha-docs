@@ -15,12 +15,12 @@ description = "Alpha theme multilingual documentation. Guides for using a single
 seo_type = "TechArticle"
 seo_image = "multilingual-alpha-docs-seo.png"
 +++
-{{< text-snippet >}}
+{{< text_snippet >}}
 
 Alpha's default language is English.  
 But that doesn’t stop you from creating content in your own language or even in multiple languages.  
 Alpha supports multilingual sites and can likely be translated into your language too.
 
-{{< /text-snippet>}}
+{{< /text_snippet>}}
 
-{{< num-list TITLE="Let's Translate" STYLE="card-list">}}
+{{< num_list TITLE="Let's Translate" STYLE="card-list">}}

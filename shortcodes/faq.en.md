@@ -85,8 +85,8 @@ Inner Content
 
 ### Error Reporting
 - Warnings are printed to the Hugo terminal.
-- OCD enabled.
+- LiVa enabled.
 
 #### Error Codes
-ocd-sc-151
+liva-sc-151
 : Unrecognized parameter detected.

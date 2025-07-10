@@ -53,14 +53,14 @@ LIMIT
 
 ### Error Reporting
 - Warnings are printed to the Hugo terminal.
-- OCD enabled.
+- LiVa enabled.
 
 #### Error Codes
-ocd-sc-181
+liva-sc-181
 : Unrecognized parameter detected.
 
-ocd-sc-182
+liva-sc-182
 : Invalid number or non integer value.
 
-ocd-sc-183
+liva-sc-183
 : No pages marked with `recommended = true`

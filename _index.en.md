@@ -15,14 +15,14 @@ description = "Official Alpha theme documentation: Learn to install, to configur
 seo_type = "TechArticle"
 seo_image = "alpha-docs-seo.png"
 +++
-{{< text-snippet >}}
+{{< text_snippet >}}
 
 In the Alpha documentation, I aim to explain Alpha, from installation to everyday use, in the most concise and straightforward way possible.
 My goal is to make it approachable for newcomers to Hugo, while still keeping it efficient for more experienced users.
 
-{{< /text-snippet >}}
+{{< /text_snippet >}}
 
-{{< num-list TITLE="Contents" STYLE="card-list">}}
+{{< num_list TITLE="Contents" STYLE="card-list">}}
 
 {{< cta TITLE="Support Alpha" BTN-LINK="/support" BTN-TEXT="Support Alpha">}}
 

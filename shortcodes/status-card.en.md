@@ -33,14 +33,14 @@ seo_image = "status-card-shortcode-alpha-docs-seo.png"
 
 ## Code
 ``` go-html-template
-{{</* status-card TITLE="Investigation Status" TYPE="info" */>}}
+{{</* status_card TITLE="Investigation Status" TYPE="info" */>}}
 
 **Current Status**: Cold Case - *Inactive*
 **Lead Agency:** Los Santos Police Department
 **Last Known Action:** Case review requested (2020) - *No new leads identified*.
 **Contact for Tips:** Los Santos PD Cold Case Unit (**555-1234**)
 
-{{</* /status-card */>}}
+{{</* /status_card */>}}
 ```
 ### Overview
 A closed shortcode that renders an `info`, `error`, `warning`, or `success` card with an optional title and markdown styled text content.
@@ -64,11 +64,11 @@ Inner Content
 
 ### Error Reporting
 - Warnings are printed to the Hugo terminal.
-- OCD enabled.
+- LiVa enabled.
 
 #### Error Codes
-ocd-sc-131
+liva-sc-131
 : Unrecognized parameter detected.
 
-ocd-sc-130
+liva-sc-130
 : Invalid `TYPE` value detected.

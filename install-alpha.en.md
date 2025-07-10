@@ -20,7 +20,7 @@ description = "Learn how to install the Alpha Hugo theme. Instructions for fresh
 seo_type = "TechArticle"
 seo_image = "install-alpha-docs-seo.png"
 +++
-{{< status-card TITLE="Prerequisites" TYPE="warning" >}}
+{{< status_card TITLE="Prerequisites" TYPE="warning" >}}
 
 1. To follow this guide, your system should have the following installed:  
     - **Hugo** (version **`0.146.1`**    or later)
@@ -28,9 +28,9 @@ seo_image = "install-alpha-docs-seo.png"
     - A text editor.
 2. Optional (*method-dependent*) you will need **Git**, a **GitHub account**, **Go**
 
-If you're missing any of these or you're not sure what they are, start with the [Get Started: From Zero with Zero](/get-started) guide.
+If you're missing any of these or you're not sure what they are, start with the [Get Started: From Zero with Zero](/get-started/) guide.
 
-{{< /status-card >}}
+{{< /status_card >}}
 
 ## Overview
 
@@ -61,7 +61,7 @@ Within each case, the methods are ordered from simplest to most advanced.
 
 
 ## Alpha for a new site
-If you're starting fresh, the easiest way to use Alpha is by using the [Alpha Starter](https://github.com/oxypteros/alpha-starter). It’s a Hugo site that comes pre-configured to use the Alpha theme. No post-install configuration needed.
+If you're starting fresh, the easiest way to use Alpha is by using the [Alpha Starter](https://github.com/oxypteros/alpha-starter/). It’s a Hugo site that comes pre-configured to use the Alpha theme. No post-install configuration needed.
 
 ### Method I --- Manual Install 
 1. Download the latest version of [Alpha Starter](/downloads/alpha-starter.zip "alpha-download")
@@ -77,7 +77,7 @@ hugo server
 5. Open your browser to the local address shown in the terminal ([http://localhost:1313](http://localhost:1313)) and begin customizing your site from your editor.
 
 ### Method II --- Template 
-1. Go to the [Alpha Starter Github repository](https://github.com/oxypteros/alpha-starter)
+1. Go to the [Alpha Starter Github repository](https://github.com/oxypteros/alpha-starter/)
 2. Click the green **"Use this template"** button and choose **"Create a new repository"**.
 3. Name your new repo and click **"Create repository"**.
 4. Open your terminal and clone your new repository:
@@ -115,13 +115,13 @@ Before we begin, there are **two important things to keep in mind** to ensure Al
 Alpha is designed with a **soft separation** between the **main Site Hugo configuration** (typically in `hugo.toml`) and **Alpha-specific configuration** (in `config/_default/`).
 To avoid issues and keep your site clean:
     -  **Copy** the folder `themes/alpha/config/_default` into your root-level `config/` directory.
-    - **Before you do this**, it’s highly recommended that you read the [Configuration Guide](/docs/config) to avoid unpleasant surprises.
+    - **Before you do this**, it’s highly recommended that you read the [Configuration Guide](/docs/config/) to avoid unpleasant surprises.
 2. **Frontmatter Fields**
 Just like your previous theme, Alpha uses a mix of **standard Hugo frontmatter keys** and some **theme-specific ones**.
 To ensure a consistent look and behavior across your site after the Alpha installation:
     - Go through your existing content files and **update or add the front matter fields** required by Alpha.
     - This helps maintain a uniform visual style between your older content and any new content you’ll create with Alpha.
-    - The required front matter keys are explained in the [Content Creation](/docs/content-creation) 
+    - The required front matter keys are explained in the [Content Creation](/docs/content-creation/) 
 
 ### Method I --- Manual Install
 > This method is easiest for quick tests or beginners.
@@ -185,7 +185,7 @@ This warning is usually caused by one of the following:
 - Alpha is not installed in the correct path: It must be located exactly at `themes/alpha`.
 
 If you encounter any other issue, please:
-- Open a [GitHub issue](https://github.com/oxypteros/alpha/issues), 
-- Reach out directly from the [contact page](/contact).
+- Open a [GitHub issue](https://github.com/oxypteros/alpha/issues/), 
+- Reach out directly from the [contact page](/contact/).
 
 I'm happy to help!

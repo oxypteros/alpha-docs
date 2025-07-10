@@ -78,11 +78,11 @@ Inner Content
 
 ### Error Reporting
 - Warnings are printed to the Hugo terminal.
-- OCD enabled.
+- LiVa enabled.
 
 #### Error Codes
-ocd-sc-141
+liva-sc-141
 : Unrecognized parameter detected.
 
-ocd-sc-142
+liva-sc-142
 : `BTN-LINK` is provided but `BTN-TEXT` is missing.

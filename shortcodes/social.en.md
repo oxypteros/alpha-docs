@@ -43,14 +43,14 @@ LIMIT
 
 ### Error Reporting
 - Warnings are printed to the Hugo terminal.
-- OCD enabled.
+- LiVa enabled.
 
 #### Error Codes
-ocd-sc-171
+liva-sc-171
 : Unrecognized parameter detected.
 
-ocd-sc-172
+liva-sc-172
 : Menu `sc_social` is not defined.
 
-ocd-sc-173
+liva-sc-173
 : Invalid value for parameter `LIMIT`. Must be an integer.

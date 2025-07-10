@@ -31,9 +31,11 @@ After signing up and logging into [Vercel](https://vercel.com/):
 On the **New Project** page:
 1. **Project Name** --- This will be part of your deployment URL: `https://[project-name].vercel.app`
 
-{{< status-card TITLE="Attention" TYPE="warning">}}
+{{< status_card TITLE="Attention" TYPE="warning">}}
+
 Vercel **does not** check for name availability during setup. If the `[project-name]` is not available, Vercel will assign a random URL like `https://[random-name].vercel.app` to your project.
-{{< /status-card>}}
+
+{{< /status_card>}}
 
 2. **Framework Preset**: Select **Hugo**.
 3. In the **Build and Output Settings** section click the **edit icon** and set as **Build Command**:
@@ -67,9 +69,12 @@ If it doesn’t match and you want a specific name:
     - **Delete** the old domain you no longer need by clicking the **three dots**.
     - Update the `baseURL` in your `hugo.toml` to reflect the new domain.
     - Push the change to the Git provider.
-{{< status-card TITLE="Tip" TYPE="info">}}
+
+{{< status_card TITLE="Tip" TYPE="info">}}
+
 If you can't **Save** due to an error go back and try using a more **specific** or **unique** name.
-{{< /status-card >}}
+
+{{< /status_card >}}
 
 ## Vercel Json (Optional)
 Vercel settings can be configured not only through the Vercel dashboard but also with a `vercel.json` file placed at the root of your project.
@@ -78,9 +83,11 @@ Alpha includes a `vercel.json` file located at: `themes/alpha/vercel.json`. The 
 
 Refer to the official [Vercel JSON documentation](https://vercel.com/docs/project-configuration) for full syntax and available options.
 
-{{< status-card TITLE="vercel.json" TYPE="info">}}
+{{< status_card TITLE="vercel.json" TYPE="info">}}
+
 JSON does not officially support comments (even though Vercel’s parser allows them). To avoid editor validation errors, the provided `vercel.json` does not contain comments.
-{{< /status-card >}}
+
+{{< /status_card >}}
 
 ### How to use:
 

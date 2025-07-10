@@ -41,7 +41,7 @@ Explore the archives, and let's investigate together.
 
 ## Code
 ``` go-html-template
-{{</* text-content */>}} 
+{{</* text_content */>}} 
 
 ## Peer into the Shadows
 I'm *John Smith*, your guide into the complex world of **true crime**. Here, we delve deep into compelling cases from haunting cold files to landmark investigations that shaped history. My focus is on *meticulous research*, *respecting the victims*, and exploring the often *unsettling questions left unanswered*.
@@ -56,7 +56,7 @@ This blog
 
 Explore the archives, and let's investigate together.
 
-{{</* /text-content */>}}
+{{</* /text_content */>}}
 ```
 ### Overview
 A **closed shortcode** that renders styled text content using Markdown.

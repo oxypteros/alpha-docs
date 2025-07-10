@@ -16,14 +16,14 @@ seo_type = "TechArticle"
 seo_image = "content-creation-alpha-docs-seo.png"
 +++
 
-{{< text-snippet TITLE="Unleash your Words" >}}
+{{< text_snippet TITLE="Unleash your Words" >}}
 
 Alpha considers all pages **content**, from a *“boilerplate”* policy page to a *multichapter narrative*, Alpha aims to support an uninterrupted reading experience..  
 Every layout is designed to provide a cohesive visual style while giving you the flexibility to create different types of text.
 
-{{< /text-snippet>}}
+{{< /text_snippet>}}
 
-{{< text-content>}}
+{{< text_content>}}
 
 ## Archetypes
 Alpha offers **frontmatter archetypes** specified for each layout, (`page`, `story`, `utility`, `home`, `list`, `taxonomy`, `terms`) and a `default` with only global keys.
@@ -71,9 +71,9 @@ content/
 │   └── _index.md
 └── _index.md
 ```
-{{< /text-content>}}
+{{< /text_content>}}
 
-{{< num-list TITLE="Let's Create" STYLE="card-list">}}
+{{< num_list TITLE="Let's Create" STYLE="card-list">}}
 
 {{< faq TITLE="Questions no one asked" SUBTITLE="But I’m answering them anyway.">}}
 
@@ -82,7 +82,7 @@ Yes, you’re free to use any layout as you see fit. However, each layout in Alp
 ## What if there’s no layout for my content type?
 If none of the available layouts suit your content, feel free to reach out with a detailed description of what you need. If it’s feasible, I’ll consider adding a new layout in a future version of Alpha. Of course, you’re also free to create your own custom layouts.
 ## Why doesn’t my page look like the demo?
-Layouts in Alpha act as frames. The final result depends on your **frontmatter**, **shortcodes**, **Markdown** and of course **your content**. Carefully review the documentation for each page’s frontmatter options and the [shortcode section](/docs/shortcodes). If something still seems off, feel free to contact me.
+Layouts in Alpha act as frames. The final result depends on your **frontmatter**, **shortcodes**, **Markdown** and of course **your content**. Carefully review the documentation for each page’s frontmatter options and the [shortcode section](/docs/shortcodes/). If something still seems off, feel free to contact me.
 ## I'm using layout x, but don’t want element y to appear.
 Each layout includes specific elements to support its intended purpose. Some elements can be toggled from the frontmatter, while others are hardcoded. If an element isn't marked in the documentation as optional, it can't be disabled unless you duplicate and modify the layout manually.
 ## I disabled an optional element but get an error about it.

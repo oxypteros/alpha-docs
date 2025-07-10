@@ -20,11 +20,11 @@ description = "Learn Alpha's recommended content organization. Understand sectio
 seo_type = "TechArticle"
 seo_image = "content-organization-alpha-docs-seo.png"
 +++
-{{< text-snippet TITLE="Alpha & Content">}}
+{{< text_snippet TITLE="Alpha & Content">}}
 
 Alpha recommends a **specific way** of organizing content. It doesn’t deviate from Hugo’s defaults, but it is slightly opinionated. Everything starts with the **content folder**.
 
-{{< /text-snippet>}}
+{{< /text_snippet>}}
 
 ## Overview
 All content related files and folders are placed inside the `content/` folder. For all intents and purposes, this folder serves as the **root** for your site’s content.
@@ -75,8 +75,8 @@ content
 
 ## Markdown Files
 Markdown files provide the actual content of your pages. What’s rendered depends on:
-- The [**frontmatter**](/docs/content-creation)
-- The [**shortcodes**](/docs/shortcodes) used
+- The [**frontmatter**](/docs/content-creation/)
+- The [**shortcodes**](/docs/shortcodes/) used
 - Your **text**
 
 _index.md (root) 

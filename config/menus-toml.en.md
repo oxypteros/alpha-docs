@@ -20,12 +20,12 @@ description = "Alpha theme menu configuration: Customize main/footer menus, add 
 seo_type = "TechArticle"
 seo_image = "menus-toml-alpha-docs-seo.png"
 +++
-{{< status-card TITLE="Before you begin" TYPE="warning">}}
+{{< status_card TITLE="Before you begin" TYPE="warning">}}
 
 If you **didn't** use the **Alpha Starter Site**, copy the entire **config folder** (`themes/alpha/config/`) to your site's root directory before editing anything. 
 This ensures that your changes are preserved and won’t be overwritten by future Alpha updates.
 
-{{< /status-card>}}
+{{< /status_card>}}
 
 ## Overview
 The `config/_default/menus.toml` file defines and populates all menu entries used in Alpha.

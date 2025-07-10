@@ -20,9 +20,12 @@ description = "Integrate privacy-friendly GoatCounter analytics in Alpha. Guide 
 seo_type = "TechArticle"
 seo_image = "analytics-alpha-docs-seo.png"
 +++
-{{< status-card TITLE="Privacy" TYPE="info">}}
+{{< status_card TITLE="Privacy" TYPE="info">}}
+
 Discussions about **web privacy**, the pros and cons of **anonymous analytics**, or **legal compliance** with GDPR, CCPA, and similar regulations are beyond the scope of this documentation.
-{{< /status-card >}}
+
+{{< /status_card >}}
+
 Alpha is built with both beginners and experienced users in mind, and aims to be compliant with evolving legal standards. For these reasons (and more), Alpha follows a **zero-data** policy by default:
 - No cookies
 - No personal data collection

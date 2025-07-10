@@ -69,7 +69,7 @@ Every push to your Git repository will trigger an automatic deployment.
     ```bash
     hugo --gc --minify
     ```
-    **Note**: Pagefind search requires [Node.js installed locally](/docs/developing-alpha/install-node).
+    **Note**: Pagefind search requires [Node.js installed locally](/docs/developing-alpha/install-node/).
 2. On the *Projects* page under ***...or deploy manually***  click **browse to upload**.
 3. Change file type filter from `.zip` to **All files**, then upload your built `public/` folder.
 4. At the *Deploy success!* click **Get Started**
@@ -80,10 +80,12 @@ Every push to your Git repository will trigger an automatic deployment.
 baseURL = "https://[project-name].netlify.app"
 ```
 
-{{< status-card TITLE="Attention" TYPE="warning" >}}
+{{< status_card TITLE="Attention" TYPE="warning" >}}
+
 Netlify auto-assigns a project name after the first upload.
 For your Hugo site to work, you **must rebuild your site** with the correct `baseURL` and **re-upload**.
-{{< /status-card>}}
+
+{{< /status_card>}}
 
 For future deployments:
 1. Build your site locally.
@@ -104,10 +106,12 @@ You’ll find this file at: `themes/alpha/netlify.toml`
 
 This file is a starting point. For a complete reference, see the official [Netlify netlify.toml documentation](https://docs.netlify.com/configure-builds/file-based-configuration/).
 
-{{< status-card TITLE="netlify.toml" TYPE="warning">}}
+{{< status_card TITLE="netlify.toml" TYPE="warning">}}
+
 Settings defined in `netlify.toml` override those in the Netlify dashboard.
 Alpha recommends using the file **only** for settings that can't be configured in the UI.
-{{< /status-card >}}
+
+{{< /status_card >}}
 
 ### Custom Headers File
 Alpha also includes a `_headers` file preconfigured for a default Alpha installation, located at: `/themes/alpha/static/_headers`. 
@@ -116,9 +120,11 @@ This file allows you to define HTTP headers for Netlify, including security-rela
 
 Refer to the [official documentation](https://docs.netlify.com/routing/headers/) for syntax details, available options, and best practices..
 
-{{< status-card TITLE="Warning" TYPE="warning" >}}
+{{< status_card TITLE="Warning" TYPE="warning" >}}
+
 Some headers (especially related to **cross-origin policies** or **Content Security Policy (CSP)**) can break your site or block third-party embeds if misconfigured. Always test your site thoroughly before going live.
-{{< /status-card >}}
+
+{{< /status_card >}}
 
 #### How to Use
 1. **Copy** the `_headers` file from `/themes/alpha/static` to your site's own`static/` directory.

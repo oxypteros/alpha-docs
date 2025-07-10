@@ -73,14 +73,14 @@ layout
 title 
 : `title = ""` --- (**string, recommended**)
 : Populates metadata.
-: OCD error if omitted.
+: LiVa error if omitted.
 : Default: Automatically filled at creation. If omitted, the site title is used.
 
 description 
 : `description = ""` --- (**string, recommended**)
 : A short description for metadata.
 : For best SEO, keep it between 50–160 characters.
-: OCD warning if omitted.
+: LiVa warning if omitted.
 
 [^1]: Only essential fields are listed: Default page fields, layout affecting options, and custom Alpha additions. 
 See the [full list of supported frontmatter fields](https://gohugo.io/content-management/front-matter/#fields) in Hugo.

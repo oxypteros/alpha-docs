@@ -26,7 +26,7 @@ seo_image = "num-list-shortcode-alpha-docs-seo.png"
 
 ## Code
 ```go-html-template
-{{</* num-list TITLE="Analysis of Forensic Evidence" STYLE="card" LIMIT="3" */>}}
+{{</* num_list TITLE="Analysis of Forensic Evidence" STYLE="card" LIMIT="3" */>}}
 ```
 ### Overview
 A numbered list of a section child pages, offering **four different styles** and a page limit option.
@@ -53,11 +53,11 @@ LIMIT
 
 ### Error Reporting
 - Warnings are printed to the Hugo terminal.
-- OCD enabled.
+- LiVa enabled.
 
 #### Error Codes
-ocd-sc-101
+liva-sc-101
 : Unrecognized parameter detected.
 
-ocd-sc-100
+liva-sc-100
 : Invalid `STYLE` value detected.

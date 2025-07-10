@@ -66,11 +66,11 @@ Inner Content
 
 ### Error Reporting
 - Warnings are printed to the Hugo terminal.
-- OCD enabled.
+- LiVa enabled.
 
 #### Error Codes
-ocd-sc-161
+liva-sc-161
 : Unrecognized parameter detected.
 
-ocd-sc-162
+liva-sc-162
 : Image not found. Check filename in `/assets/img/` path.

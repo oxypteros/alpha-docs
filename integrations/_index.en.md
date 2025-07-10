@@ -16,11 +16,11 @@ seo_type = "TechArticle"
 seo_image = "integrations-alpha-docs-seo.png"
 +++
 
-{{< text-snippet >}}
+{{< text_snippet >}}
 
 Alpha is an standalone Hugo theme with no hard dependencies.  
 However, to enhance its features, it offers optional integrations for **search functionality** and **anonymous analytics**.
 
-{{< /text-snippet>}}
+{{< /text_snippet>}}
 
-{{< num-list TITLE="Available Integrations" STYLE="card-list">}}
+{{< num_list TITLE="Available Integrations" STYLE="card-list">}}

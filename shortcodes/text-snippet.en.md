@@ -31,12 +31,12 @@ Join us as we meticulously **examine** the evidence, **interrogate** the unusual
 
 ## Code
 ``` go-html-template
-{{</* text-snippet TITLE="No Crime Too Small, No Clue Too Crumbly" */>}}
+{{</* text_snippet TITLE="No Crime Too Small, No Clue Too Crumbly" */>}}
 
 Whether it's a *cold case* that's haunted generations or the *baffling disappearance* of the office's last donut, we believe every puzzle deserves to be solved. 
 Join us as we meticulously **examine** the evidence, **interrogate** the unusual, and **bring closure**, one bizarre case at a time. 
 
-{{</* /text-snippet */>}}
+{{</* /text_snippet */>}}
 ```
 ### Overview
 A closed shortcode that renders a centered text snippet with an optional title.
@@ -56,8 +56,8 @@ Inner Content
 
 ### Error Reporting
 - Warnings are printed to the Hugo terminal.
-- OCD enabled.
+- LiVa enabled.
 
 #### Error Codes
-ocd-sc-111
+liva-sc-111
 : Unrecognized parameter detected.

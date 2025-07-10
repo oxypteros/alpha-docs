@@ -20,12 +20,12 @@ description = "Alpha theme params.toml guide: Control theme specific settings fo
 seo_type = "TechArticle"
 seo_image = "params-toml-alpha-docs-seo.png"
 +++
-{{< status-card TITLE="Before you begin" TYPE="warning">}}
+{{< status_card TITLE="Before you begin" TYPE="warning">}}
 
 If you **didn't** use the **Alpha Starter Site**, copy the entire **config folder** (`themes/alpha/config/`) to your site's root directory before editing anything. 
 This ensures that your changes are preserved and won’t be overwritten by future Alpha updates.
 
-{{< /status-card>}}
+{{< /status_card>}}
 
 ## Overview
 The `config/_default/params.toml` file contains all **customs** and **Alpha specific** configuration keys.
@@ -53,7 +53,7 @@ visitor_settings = true
 
 #Development Settings
 tailwind_enabled = false
-ocd_enabled = true
+liva_enabled = true
 ```
 
 ## Best Practices
@@ -86,8 +86,8 @@ visitor_settings
 : Allows users to opt out of anonymous tracking and disable link prefetching to save data.
 : Default value: `true`
 
-ocd_enabled
-: `ocd_enabled = true` --- (**boolean**, optional)
+liva_enabled
+: `liva_enabled = true` --- (**boolean**, optional)
 : Enables the OCD for local development.
 : [OCD](/docs/integrations/search) documentation.
 : Default value: `true`

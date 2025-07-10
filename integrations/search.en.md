@@ -37,13 +37,13 @@ hugo --gc --minify && npx pagefind --site "public"
 ```
 This command builds your Hugo site, then runs Pagefind to generate the searchable index.
 
-You can find platform specific instructions in the [Deployment documentation](/docs/deployment) pages.
+You can find platform specific instructions in the [Deployment documentation](/docs/deployment/) pages.
 
 If you’re building your site **locally** or testing search before deployment, run the same command in your terminal:
 ```bash
 hugo --gc --minify && npx pagefind --site "public"
 ```
-**Note**: You must have [Node.js installed](/docs/developing-alpha/install-node)on your local system.
+**Note**: You must have [Node.js installed](/docs/developing-alpha/install-node/)on your local system.
 
 ### How it works
 Pagefind is installed in Hugo’s `public/` folder (Hugo's default output directory). It scans the generated HTML and builds a lightweight search index from your site’s content.

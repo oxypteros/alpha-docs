@@ -89,14 +89,14 @@ LINK-LABEL
 
 ### Error Reporting
 - Warnings are printed to the Hugo terminal.
-- OCD enabled.
+- LiVa enabled.
 
 #### Error Codes
-ocd-sc-121
+liva-sc-121
 : Unrecognized parameter detected.
 
-ocd-sc-122
+liva-sc-122
 : `BTN-LINK` is provided but `BTN-TEXT` is missing.
 
-ocd-sc-123
+liva-sc-123
 : `LINK` is provided but `LINK-TEXT` is missing.

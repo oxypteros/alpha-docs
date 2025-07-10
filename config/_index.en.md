@@ -15,14 +15,14 @@ description = "Alpha theme configuration documentation. Customize global setting
 seo_type = "TechArticle"
 seo_image = "config-alpha-docs-seo.png"
 +++
-{{< text-snippet >}}
+{{< text_snippet >}}
 
 My initial goal for Alpha was to use as few Alpha **specific configuration** keys as possible.
 While I can’t say that goal was fully achieved, I believe I avoided unnecessary complexity without compromising Alpha’s customization features.
 
-{{< /text-snippet >}}
+{{< /text_snippet >}}
 
-{{< text-content>}}
+{{< text_content>}}
 
 ## Overview
 The main configuration files of Alpha are located in the `config/` folder inside Alpha's theme folder `/themes/alpha/config/_default`:
@@ -68,9 +68,9 @@ cp -r themes/alpha/config/_default config/
 3. **Carefully integrate any custom values** you had in your old config.
 4. **Test** your site thoroughly before deploying.
 
-{{< /text-content>}}
+{{< /text_content>}}
 
-{{< num-list TITLE="Config Files" STYLE="card-list">}}
+{{< num_list TITLE="Config Files" STYLE="card-list">}}
 
 {{< faq TITLE="Questions no one asked" SUBTITLE="But I’m answering them anyway.">}}
 

@@ -16,13 +16,13 @@ seo_type = "TechArticle"
 seo_image = "shortcodes-alpha-docs-seo.png"
 +++
  
-{{< text-snippet >}}
+{{< text_snippet >}}
 
 In Alpha shortcodes play a crucial role. They not only enhance your content beyond Markdown's limitations but also let you design and customize your site.
 
-{{< /text-snippet>}}
+{{< /text_snippet>}}
 
-{{< text-content >}}
+{{< text_content >}}
 
 ## Overview
 In Alpha, many of the **key components** used to structure and enrich a webpage are provided as shortcodes.
@@ -41,9 +41,9 @@ Feel free to **skim through** now to get a rough idea, then **come back when you
 
 > If you’re new to Hugo or shortcodes in general, don’t worry, just copy the examples when needed.
 
-{{< /text-content >}}
+{{< /text_content >}}
 
-{{< num-list TITLE="Shortcode List" STYLE="card-list">}}
+{{< num_list TITLE="Shortcode List" STYLE="card-list">}}
 
 {{< faq TITLE="Questions no one asked" SUBTITLE="But I’m answering them anyway.">}}
 

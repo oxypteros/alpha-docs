@@ -27,7 +27,7 @@ A section is any folder within the `content/` directory that contains **content 
 
 In Alpha, a list page can also act as a transitional landing page between different parts of a series. This is particularly useful when the previous part exists **outside** the section and the next part is a **child within it** or when one series ends and another begins.
 
-**Note**: Don’t confuse a section list page with the `_index.md` in the **root** of the `content/` folder ([homepage](/docs/content-creation/homepage)).
+**Note**: Don’t confuse a section list page with the `_index.md` in the **root** of the `content/` folder ([homepage](/docs/content-creation/homepage/)).
 
 ## Creation
 A list page is automatically recognized by Hugo when an `_index.md` file exists inside a subfolder of `content/`.
@@ -41,7 +41,7 @@ hugo new content --kind list [section-folder]/_index.md
 ## Layout
 Alpha’s `list` layout renders a minimal page that includes the **section title** and a **paginated list** of its child page and sub-sections, below the content of the `_index.md`.
 
-You can personalize a list page by adding [Alpha's shortcodes](/docs/shortcodes "Alpha's shortcodes documentation") inside the `_index.md` files.
+You can personalize a list page by adding [Alpha's shortcodes](/docs/shortcodes/ "Alpha's shortcodes documentation") inside the `_index.md` files.
 
 **Note**: The list layout is meant to be used **exclusively** with shortcodes or left empty. If you need to add **plain text** content, use a **text related shortcode** to wrap it.
 
@@ -91,7 +91,7 @@ Default: `true`
 title 
 : `title = ""` --- (**string, recommended**)
 : Sets the page title and populates metadata.
-: OCD error if omitted.
+: LiVa error if omitted.
 : Default: Automatically filled at creation.
 
 series 
@@ -108,7 +108,7 @@ description
 : `description = ""` --- (**string, recommended**)
 : A short description for metadata.
 : For best SEO, keep it between 50–160 characters.
-: OCD warning if omitted.
+: LiVa warning if omitted.
 
 
 [^1]: Only essential fields are listed: Default page fields, layout affecting options, and custom Alpha additions. See the [full list of supported frontmatter fields](https://gohugo.io/content-management/front-matter/#fields) in Hugo.

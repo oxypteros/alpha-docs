@@ -70,7 +70,7 @@ other = "Pagina Iniziale"
 Repeat this process for each entry in the file until you reach the comment:
 ```toml
 ...
-# OCD
+# LiVa
 ...
 ```
 ## 404 Page Translation
@@ -86,10 +86,12 @@ and for Italian:
 ```
 
 {{< faq TITLE="Questions no one asked" SUBTITLE="But I’m answering them anyway.">}}
-## Why I should not translate below the OCD comment?
-You are free to do so, if you want to. But the entries under `# OCD` are used only by the [OCD](/docs/ocd), they are visible **only to you** and as such **do not need to be translated**. Also, note that OCD entries are not complete and may change in future updates, especially while it’s in beta.
+
+## Why I should not translate below the LiVa comment?
+You are free to do so, if you want to. But the entries under `# LiVa` are used only by the [LiVa](/docs/liva/), they are visible **only to you** and as such **do not need to be translated**. Also, note that LiVa entries are not complete and may change in future updates, especially while it’s in beta.
 ## Can I Share My Translation?
-Yes! If you’ve translated Alpha and would like to share it with other users, please follow the instructions on the [Support](/support) page.
+Yes! If you’ve translated Alpha and would like to share it with other users, please follow the instructions on the [Support](/support/) page.
 ## What about RTL Language Support
 Unfortunately, Alpha **does not** currently support right-to-left (RTL) languages. This may change in the future.
+
 {{< /faq >}}

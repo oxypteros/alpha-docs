@@ -20,12 +20,12 @@ description = "Alphas languages.toml documentation: Define supported languages, 
 seo_type = "TechArticle"
 seo_image = "languages-toml-alpha-docs-seo.png"
 +++
-{{< status-card TITLE="Before you begin" TYPE="warning">}}
+{{< status_card TITLE="Before you begin" TYPE="warning">}}
 
 If you **didn't** use the **Alpha Starter Site**, copy the entire **config folder** (`themes/alpha/config/`) to your site's root directory before editing anything. 
 This ensures that your changes are preserved and won’t be overwritten by future Alpha updates.
 
-{{< /status-card>}}
+{{< /status_card>}}
 
 ## Overview
 The `config/_default/languages.toml` file defines the **languages** supported by your site and sets the **order** and **display name** for each. Alpha is **multilingual** ready.
@@ -54,7 +54,7 @@ To add a second language, for example Canadian French:
   languageCode = "fr-CA"
 ``` 
 ## Best Practices
-Alpha uses **filename based** translation, **not** directories. To learn more about setting up a multilingual site with Alpha, refer to the [Multilingual documentation](/docs/multilingual).
+Alpha uses **filename based** translation, **not** directories. To learn more about setting up a multilingual site with Alpha, refer to the [Multilingual documentation](/docs/multilingual/).
 
 If multiple languages are found in `languages.toml` the language switch is activated.
 
@@ -70,7 +70,7 @@ weight
 languageName
 : `languageName = "English"` --- (**string, recommended**)
 : Full display name of the language, shown in the language switch.
-: If missing, triggers the `ocd-lang-100` error.
+: If missing, triggers the `liva-lang-100` error.
 
 languageCode 
 : `languageCode = "en-US"`--- (**string**, optional)

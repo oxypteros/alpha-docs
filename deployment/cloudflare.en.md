@@ -73,7 +73,7 @@ Every consecutive push to your GitHub or GitLab repository will automatically tr
         ```bash
         hugo --gc --minify
         ```
-        **Note**: Search requires [Node.js installed locally](/docs/developing-alpha/install-node).
+        **Note**: Search requires [Node.js installed locally](/docs/developing-alpha/install-node/).
 3. In Cloudflare click **select from computer**, choose your local `public/` folder, and upload it.
 4. Click **Deploy Site** and then **Continue to Project**.
 
@@ -87,9 +87,12 @@ Alpha includes a `_headers` file preconfigured for a default Alpha installation,
 
 This file allows you define security HTTP headers for your Cloudflare Pages deployment. Refer to the official [official documentation](https://developers.cloudflare.com/pages/configuration/headers/) for complete syntax, usage examples, and header options.
 
-{{< status-card TITLE="Warning" TYPE="warning" >}}
+{{< status_card TITLE="Warning" TYPE="warning" >}}
+
 Some headers (especially related to **cross-origin policies** or **Content Security Policy (CSP)**) can break your site or block third-party embeds if misconfigured. Always test your site thoroughly before going live.
-{{< /status-card >}}
+
+{{< /status_card >}}
+
 ### How to Use
 1. **Copy** the `_headers` file from `/themes/alpha/static` to your site's `static/` directory.
 2. **Review** and **customize** the rules to match your site’s security and performance needs.

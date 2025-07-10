@@ -16,16 +16,16 @@ seo_type = "TechArticle"
 seo_image = "integrations-alpha-docs-seo.png"
 +++
 
-{{< text-snippet >}}
+{{< text_snippet >}}
 
 Hugo can be deployed almost anywhere, and today’s vast range of options can be overwhelming. To make things easier (mostly for beginners), Alpha provides host and deployment instructions only for some of the platforms that work flawless with Hugo and your Alpha site.Experiment and choose the one that best suits your project and workflow.
 
-{{< /text-snippet>}}
+{{< /text_snippet>}}
 
-{{< status-card TITLE="Attention" TYPE="warning" >}}
+{{< status_card TITLE="Attention" TYPE="warning" >}}
 
 The platforms are listed in alphabetical order. Each one has pro and cons that are highly depended from your choices and use. For a more detailed list of deployment options consult the [Hugo documentation](https://gohugo.io/host-and-deploy/)
 
-{{< /status-card >}}
+{{< /status_card >}}
 
-{{< num-list TITLE="Available Integrations" STYLE="card-list">}}
+{{< num_list TITLE="Available Integrations" STYLE="card-list">}}

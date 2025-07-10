@@ -20,12 +20,12 @@ description = "Configure Alpha theme: Understand hugo.toml setup, Alpha's defaul
 seo_type = "TechArticle"
 seo_image = "hugo-toml-alpha-docs-seo.png"
 +++
-{{< status-card TITLE="Before you begin" TYPE="warning">}}
+{{< status_card TITLE="Before you begin" TYPE="warning">}}
 
 If you **didn't** use the **Alpha Starter Site**, copy the entire **config folder** (`themes/alpha/config/`) to your site's root directory before editing anything. 
 This ensures that your changes are preserved and won’t be overwritten by future Alpha updates.
 
-{{< /status-card>}}
+{{< /status_card>}}
 
 ## Overview
 Alpha’s `config/_default/hugo.toml` contains key configuration sections for:
@@ -93,7 +93,7 @@ title
 : `title = "My Website"` --- (**string, recommended**)
 : Defines the website name. Used on every page, for the pseudologo (if enabled) and in metadata fields.
 : Recommended placement: root `hugo.toml`.
-: If missing, triggers the `ocd-config-100` error.
+: If missing, triggers the `liva-config-100` error.
 
 timeZone
 : `timeZone = "Europe/Rome"` --- (**string**, optional)
