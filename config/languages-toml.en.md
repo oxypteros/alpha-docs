@@ -1,22 +1,32 @@
 +++
-draft = false
-date = "2025-05-30T16:19:05+02:00"
-lastmod = ""
-layout = "page"
-
+# Content Identity
 title = "languages.toml"
+description = "Alphas languages.toml documentation: Define supported languages, set their display order and names for your Alpha Hugo site, and understand key configuration options."
+
+# Authoring
 author = "oxypteros"
+date = "2025-05-30T16:19:05+02:00"
+lastmod = "2025-07-11T16:06:34+02:00"
 license = "CC-BY-SA"
-github_edit = true
-series = "Alpha Docs"
-  parts = "Config Files"
-  weight = 130
+
+# Organization
 categories = ["Configuration"]
 
-recommended = false
+## Series
+series = "Alpha Docs"
+parts = "Config Files"
+weight = 130
+
+# Display
 featured = false
-description = "Alphas languages.toml documentation: Define supported languages, set their display order and names for your Alpha Hugo site, and understand key configuration options."
-# SEO
+recommended = false
+
+# Publication Control
+draft = false
+layout = "page"
+github_edit = true
+
+# Advanced SEO
 seo_type = "TechArticle"
 seo_image = "languages-toml-alpha-docs-seo.png"
 +++
@@ -36,22 +46,22 @@ If your site is **multilingual** or your main language is **not** English, you n
 ### Language Entry Format
 
 ```toml
-[en]
-  weight = 1
+[en]  
   languageName = "English"
   languageCode = "en"
+  weight = 1
 ```
 To add a second language, for example Canadian French:
 ```toml
-[en]
-  weight = 1
+[en]  
   languageName = "English"
   languageCode = "en"
+  weight = 1
 
-[fr]
-  weight = 2
+[fr]  
   languageName = "Français"
   languageCode = "fr-CA"
+  weight = 2
 ``` 
 ## Best Practices
 Alpha uses **filename based** translation, **not** directories. To learn more about setting up a multilingual site with Alpha, refer to the [Multilingual documentation](/docs/multilingual/).
@@ -63,17 +73,18 @@ If multiple languages are found in `languages.toml` the language switch is activ
 - Only **two** or **three-letter** codes are valid here. 
 - For *region* or *variants* of the language, use the `languageCode` key.
 
-weight 
-: `weight = 1` --- (**integer, recommended**)
-: Sets the order of the languages. Lower values have priority. 
-
 languageName
 : `languageName = "English"` --- (**string, recommended**)
-: Full display name of the language, shown in the language switch.
-: If missing, triggers the `liva-lang-100` error.
+: Full display name of the language. Shown in the language switch.
+: If missing, triggers the `liva-cfg-113` error.
 
 languageCode 
 : `languageCode = "en-US"`--- (**string**, optional)
 : The IETF language tag used to define the content language for **browsers** and **search engines**.
 : Can be a simple two-letter code (`en`), a language-region pair (`fr-CA`), or a more specific form like `hy-Latn-IT-arevela`. For valid formats and examples, refer to [RFC 5646 Appendix A.](https://datatracker.ietf.org/doc/html/rfc5646#appendix-A)
 : If omitted, the language code from the section will be used. 
+
+weight 
+: `weight = 1` --- (**integer, recommended**)
+: Sets the order of the languages. Lower values have priority. 
+: If missing, triggers the `liva-cfg-112` warning.

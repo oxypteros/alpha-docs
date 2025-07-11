@@ -1,22 +1,32 @@
 +++
-draft = false
-date = "2025-05-30T15:58:13+02:00"
-lastmod = ""
-layout = "page"
-
+# Content Identity
 title = "hugo.toml"
+description = "Configure Alpha theme: Understand hugo.toml setup, Alpha's defaults in config/_default/ folder, best practices for root config, and key settings."
+
+# Authoring
 author = "oxypteros"
+date = "2025-05-30T15:58:13+02:00"
+lastmod = "2025-07-11T15:56:52+02:00"
 license = "CC-BY-SA"
-github_edit = true
-series = "Alpha Docs"
-  parts = "Config Files"
-  weight = 120
+
+# Organization
 categories = ["Configuration"]
 
-recommended = false
+## Series
+series = "Alpha Docs"
+parts = "Config Files"
+weight = 120
+
+# Display
 featured = false
-description = "Configure Alpha theme: Understand hugo.toml setup, Alpha's defaults in config/_default/, best practices for root config, and key settings."
-# SEO
+recommended = false
+
+# Publication Control
+draft = false
+layout = "page"
+github_edit = true
+
+# Advanced SEO
 seo_type = "TechArticle"
 seo_image = "hugo-toml-alpha-docs-seo.png"
 +++
@@ -32,6 +42,9 @@ Alpha’s `config/_default/hugo.toml` contains key configuration sections for:
 - `[pagination]` --- controls pagination behavior.
 - `[markup.goldmark]` --- defines markdown rendering options.
 - `[markup.highlight]` --- sets syntax highlighting for code blocks.
+- `[taxonomies]` --- for content organization
+- `[outputs]` --- sets build outputs
+- `[module.hugoVersion]` --- defines supported Hugo versions
 
 These options are critical for Alpha’s layout, content rendering, and visual consistency.
 
@@ -73,11 +86,12 @@ Alpha recommends using **both** a root level `hugo.toml` and a `config/_default/
 - Facilitates switching to a different theme in the future without losing essential project settings.
 ```bash
 my-project/
-├── hugo.toml  (Site-specific: baseURL, title, theme, languageCode, timeZone)
+├── hugo.toml  (Site-specific: baseURL, title, theme, timeZone)
 ├── config/
     └── _default/
         └── hugo.toml (Alpha's defaults: pagination, markup, etc.)
 ```
+
 ## Keys Reference [^1]
 theme
 : `theme = "alpha"` --- (**string, required**)
@@ -91,9 +105,9 @@ baseURL
 
 title 
 : `title = "My Website"` --- (**string, recommended**)
-: Defines the website name. Used on every page, for the pseudologo (if enabled) and in metadata fields.
+: Defines the website name. Used on every page and in metadata fields.
 : Recommended placement: root `hugo.toml`.
-: If missing, triggers the `liva-config-100` error.
+: If missing, triggers the `liva-cfg-102` error.
 
 timeZone
 : `timeZone = "Europe/Rome"` --- (**string**, optional)

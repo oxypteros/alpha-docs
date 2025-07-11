@@ -1,22 +1,32 @@
 +++
-draft = false
-date = "2025-05-30T16:29:11+02:00"
-lastmod = ""
-layout = "page"
-
+# Content Identity
 title = "menus.toml"
+description = "Alpha theme menu configuration: Customize main/footer menus, add social links with icons, manage entries."
+
+# Authoring
 author = "oxypteros"
+date = "2025-05-30T16:29:11+02:00"
+lastmod = "2025-07-11T16:13:19+02:00"
 license = "CC-BY-SA"
-github_edit = true
-series = "Alpha Docs"
-  parts = "Config Files"
-  weight = 140
+
+# Organization
 categories = ["Configuration"]
 
-recommended = false
+## Series
+series = "Alpha Docs"
+parts = "Config Files"
+weight = 140
+
+# Display
 featured = false
-description = "Alpha theme menu configuration: Customize main/footer menus, add social links with icons, manage entries."
-# SEO
+recommended = false
+
+# Publication Control
+draft = false
+layout = "page"
+github_edit = true
+
+# Advanced SEO
 seo_type = "TechArticle"
 seo_image = "menus-toml-alpha-docs-seo.png"
 +++
@@ -54,7 +64,7 @@ Alpha supports six specific menu identifiers:
 ```
 **Note:** Menu identifiers are hardcoded, **do not** rename or alter them.
 
-To disable a menu entry, either delete its keys or comment out the entire block:
+To disable a menu entry, either delete it or comment out the entire block:
 ```toml
 # This entry will not render  
 # [[main]]               
@@ -121,11 +131,11 @@ To localize menus:
 
 ## Keys Reference
 name
-: `name = "Example"`--- (**string**, optional)
+: `name = "Blog"`--- (**string**, optional)
 : Display name of the menu entry.
 
 url
-: `url = "/posts/example"` --- (**string**, optional)
+: `url = "/blog/"` --- (**string**, optional)
 : URL for the menu entry. Both relative and absolute URLs are supported.
 
 weight 
@@ -135,4 +145,4 @@ weight
 pre
 : `pre = "#github"` --- (**string**, optional)
 : Displays a social network icon.  Must use a predefined value from the list above. 
-: Used only in `[[main_social]]`, `[[footer_social]]`, `[[sc_social]]`
+: Used only in `[[main_social]]`, `[[footer_social]]` and `[[sc_social]]`
