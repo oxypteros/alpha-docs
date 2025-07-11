@@ -1,22 +1,32 @@
 +++
-draft = false
-date = "2025-05-29T19:54:54+02:00"
-lastmod = ""
-layout = "page"
-
+# Content Identity
 title = "Install Alpha"
+description = "Learn how to install the Alpha Hugo theme. Instructions for fresh setups, adding to existing projects, and enabling optional Tailwind CSS support."
+
+# Authoring
 author = "oxypteros"
+date = "2025-05-29T19:54:54+02:00"
+lastmod = "2025-07-11T15:17:16+02:00"
 license = "CC-BY-SA"
-github_edit = true
-series = "Alpha Docs"
-  parts = "Installation"
-  weight = 100
+
+# Organization
 categories = ["Get Started"]
 
-recommended = false
+## Series
+series = "Alpha Docs"
+parts = "Installation"
+weight = 100
+
+# Display
 featured = false
-description = "Learn how to install the Alpha Hugo theme. Instructions for fresh setups, adding to existing projects, and enabling optional Tailwind CSS support."
-# SEO
+recommended = false
+
+# Publication Control
+draft = false
+layout = "page"
+github_edit = true
+
+# Advanced SEO
 seo_type = "TechArticle"
 seo_image = "install-alpha-docs-seo.png"
 +++
@@ -34,11 +44,7 @@ If you're missing any of these or you're not sure what they are, start with the 
 
 ## Overview
 
-To install any Hugo theme there two main methods 
-1. The theme folder inside the Hugo site `themes/` folder
-2. As a Go module 
-
-To make things easier, I’ve initially divided the Alpha theme installation guide based on two use cases:
+To make things easier, I’ve divided the installation guide based on two use cases:
 1. You want to **create a new Hugo site using Alpha**
 2. You want to **add Alpha to an existing Hugo site**
 
@@ -58,8 +64,6 @@ Within each case, the methods are ordered from simplest to most advanced.
     4. [Hugo Module](#method-iii--hugo-module-requires-go)
 - [Troubleshoot](#troubleshoot)
 
-
-
 ## Alpha for a new site
 If you're starting fresh, the easiest way to use Alpha is by using the [Alpha Starter](https://github.com/oxypteros/alpha-starter/). It’s a Hugo site that comes pre-configured to use the Alpha theme. No post-install configuration needed.
 
@@ -74,7 +78,7 @@ cd alpha-starter
 ```bash
 hugo server
 ```
-5. Open your browser to the local address shown in the terminal ([http://localhost:1313](http://localhost:1313)) and begin customizing your site from your editor.
+5. Open your browser to the local address shown in the terminal ([http://localhost:1313](http://localhost:1313) ) and begin customizing your site from your editor.
 
 ### Method II --- Template 
 1. Go to the [Alpha Starter Github repository](https://github.com/oxypteros/alpha-starter/)
@@ -82,7 +86,7 @@ hugo server
 3. Name your new repo and click **"Create repository"**.
 4. Open your terminal and clone your new repository:
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
+git clone https://github.com/[YOUR_USERNAME]/[YOUR_REPOSITORY_NAME].git
 ```
 5. Navigate into your cloned repository folder
 ```bash
@@ -158,7 +162,7 @@ theme = "alpha"
 
 1. Initialize your site as a module (if not already):
 ```bash
-hugo mod init github.com/yourusername/yoursite
+hugo mod init github.com/[YOUR_USERNAME]/[YOUR_REPOSITORY_NAME]
 ```
 2. Add Alpha as a dependency:
 ```bash
@@ -179,10 +183,11 @@ WARN  found no layout file for "html" for kind
 ```
 
 This warning is usually caused by one of the following:
-- The `theme = "alpha"` line is missing or defined more than once in `hugo.toml`.
-- If using Hugo Modules, ensure you’re using: `theme = ["github.com/oxypteros/alpha"]`
-
 - Alpha is not installed in the correct path: It must be located exactly at `themes/alpha`.
+- The `theme = "alpha"` line is missing or defined more than once in `hugo.toml`.
+- If using Hugo Modules, ensure you’re using: `theme = ["github.com/oxypteros/alpha"]`.
+
+
 
 If you encounter any other issue, please:
 - Open a [GitHub issue](https://github.com/oxypteros/alpha/issues/), 

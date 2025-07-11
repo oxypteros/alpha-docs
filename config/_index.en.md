@@ -1,19 +1,27 @@
 +++
-draft = false
+# Content Identity
+title = "Configuration Files"
+description = "Alpha theme configuration documentation. Customize global settings, understand options in hugo.toml and Alpha Specific in params.toml."
+
+# Dates
 date = "2025-05-30T13:41:16+02:00"
-lastmod = ""
-layout = "list"
+
+# Pagination
 paginate = false
 
-title = "Configuration Files"
-author = "oxypteros"
-license = "CC-BY-SA"
+# Series
 series = "Alpha Docs"
-  weight = 110
-description = "Alpha theme configuration documentation. Customize global settings, understand options in hugo.toml and Alpha Specific in params.toml."
-# SEO
+weight = 110
+
+# Publication Control
+draft = false
+layout = "list"
+
+# Advanced SEO
 seo_type = "TechArticle"
 seo_image = "config-alpha-docs-seo.png"
+author = "oxypteros"
+license = "CC-BY-SA"
 +++
 {{< text_snippet >}}
 
