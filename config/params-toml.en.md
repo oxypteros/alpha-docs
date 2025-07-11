@@ -6,7 +6,7 @@ description = "Alpha theme params.toml guide: Control theme specific settings fo
 # Authoring
 author = "oxypteros"
 date = "2025-05-30T16:47:35+02:00"
-lastmod = "2025-07-11T18:53:37+02:00"
+lastmod = "2025-07-11T19:02:11+02:00"
 license = "CC-BY-SA"
 
 # Organization
@@ -59,22 +59,22 @@ goatcounter_prefix = "[site_ID]"
 # Performance
 prefetch_enabled = true
 
-# Global SEO 
+# Global SEO Settings
 seo_default_image = "sharing-image.png" 
-seo_logo_path = "https://absolute/url/img/logo.svg" 
-seo_license = "https://creativecommons.org/licenses/by/4.0/"
+seo_logo_url = "https://example.com/logo.svg" 
+seo_license_url = "https://creativecommons.org/licenses/by/4.0/"
 seo_organization = "[organization_name]"
 seo_author = "[author_name]"
 seo_author_url = "https://absolute/url/author_profile" 
 seo_twitter_username = "@TwitterUsername"
 
-# PWA Manifest Settings
+# "Add to Home Screen" Settings
 seo_manifest_short_name  = "My Blog"
 seo_manifest_theme_color = "#ffffff" 
-seo_manifest_bg_color    = "#000000"
+seo_manifest_bg_color    = "#ffffff"
 
 # Development Settings
-tailwind_enabled = true 
+tailwind_enabled = false 
 
 # LiVa Settings 
 liva_enabled = true     
