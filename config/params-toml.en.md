@@ -66,7 +66,7 @@ seo_license_url = "https://creativecommons.org/licenses/by/4.0/"
 seo_organization = "[organization_name]"
 seo_author = "[author_name]"
 seo_author_url = "https://absolute/url/author_profile" 
-seo_twitter_username = "@TwitterUsername"
+seo_twitter_username = "TwitterUsername"
 
 # "Add to Home Screen" Settings
 seo_manifest_short_name  = "My Blog"
@@ -158,8 +158,9 @@ seo_author_url
 : The URL of the author's primary social media profile or personal website. Is used for Open Graph.
 
 seo_twitter_username
-: `seo_twitter_username = "@TwitterUsername"` --- (**string**, optional)
-: The primary Twitter handle associated with the entire website. Used in Twitter Cards.
+: `seo_twitter_username = "TwitterUsername"` --- (**string**, optional)
+: Sets the `twitter:site` value in Twitter cards
+: : Enter the username **without** the `@` symbol.
 
 seo_manifest_short_name
 : `seo_manifest_short_name = "My Blog"` --- (**string**, optional)

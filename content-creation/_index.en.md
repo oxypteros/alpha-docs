@@ -1,21 +1,28 @@
 +++
-draft = false
+# Content Identity
+title = "Content Creation"
+description = "Alpha theme content creation guide: Understand archetypes, organize your content into sections and pages, and explore layout flexibility. Includes helpful FAQ."
+
+# Dates
 date = "2025-06-02T17:59:29+02:00"
-lastmod = ""
-layout = "list"
+
+# Pagination
 paginate = false
 
-title = "Content Creation"
-author = "oxypteros"
-license = "CC-BY-SA"
+# Series
 series = "Alpha Docs"
-  weight = 410
-description = "Alpha theme content creation guide: Understand archetypes, organize your content into sections and pages, and explore layout flexibility. Includes helpful FAQ."
-# SEO
+weight = 410
+
+# Publication Control
+draft = false
+layout = "list"
+
+# Advanced SEO
 seo_type = "TechArticle"
 seo_image = "content-creation-alpha-docs-seo.png"
+author = "oxypteros"
+license = "CC-BY-SA"
 +++
-
 {{< text_snippet TITLE="Unleash your Words" >}}
 
 Alpha considers all pages **content**, from a *“boilerplate”* policy page to a *multichapter narrative*, Alpha aims to support an uninterrupted reading experience..  
@@ -26,16 +33,16 @@ Every layout is designed to provide a cohesive visual style while giving you the
 {{< text_content>}}
 
 ## Archetypes
-Alpha offers **frontmatter archetypes** specified for each layout, (`page`, `story`, `utility`, `home`, `list`, `taxonomy`, `terms`) and a `default` with only global keys.
+Alpha offers **frontmatter archetypes** specified for each layout, (`page`, `story`, `utility`, `home`, `list`) and a `default` with only global keys.
 
 To create a page using a specific archetype, use the command:
 ```bash
-hugo new content --kind [archetype] [path]/filename.md
+hugo new content --kind [archetype] [path]/[filename].md
 ```
 **Note:** Don't start the `[path]` with `/`.
 
 ### Creating Sections and Pages.
-Each archetype corresponds to a layout: `page`, `story`, `utility`, `home`, `list`, `taxonomy`, `terms`.
+Each archetype corresponds to a layout: `page`, `story`, `utility`, `home`, `list`.
 
 Lets consider a site that has the following `content/` structure.
 ```
@@ -86,7 +93,7 @@ Layouts in Alpha act as frames. The final result depends on your **frontmatter**
 ## I'm using layout x, but don’t want element y to appear.
 Each layout includes specific elements to support its intended purpose. Some elements can be toggled from the frontmatter, while others are hardcoded. If an element isn't marked in the documentation as optional, it can't be disabled unless you duplicate and modify the layout manually.
 ## I disabled an optional element but get an error about it.
-OCD errors exist to help you build an **optimal**, **semantically correct**, and **accessible** website. They **do not** affect the published site and are **not visible** to visitors so you are free to ignore them.
+LiVa errors exist to help you build an **optimal**, **semantically correct**, and **accessible** website. They **do not** affect the published site and are **not visible** to visitors so you are free to ignore them.
 That said, if you choose to do so, be aware that your final page may lack one or more key elements, such as **metadata** or **semantic tags**, which may impact *SEO*, *accessibility*, or *general structure*.
 
 {{< /faq >}}

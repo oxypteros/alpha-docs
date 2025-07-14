@@ -1,24 +1,33 @@
 +++
-draft = false
-date = "2025-06-03T15:02:56+02:00"
-lastmod = ""
-layout = "story"
-
+# Content Identity
 title = "Story Markdown"
+description = "Markdown demo for Alpha's story layout. See examples of headings, lists, links, images, code blocks, tables, and more, with Alpha specific notes."
+
+# Authoring
 author = "oxypteros"
+date = "2025-06-03T15:02:56+02:00"
+lastmod = "2025-07-14T14:21:16+02:00"
 license = "CC-BY-SA"
-github_edit = false
-series = "Alpha Docs"
-  parts = "Content Creation"
-  weight = 455
-dropcap = true
+
+# Organization
 categories = ["Content"]
 tags = ["markdown"]
+## Series
+series = "Alpha Docs"
+parts = "Content Creation"
+weight = 455
 
-recommended = false
+# Display
+dropcap = true
 featured = false
-description = "Markdown demo for Alpha's story layout. See examples of headings, lists, links, images, code blocks, tables, and more, with Alpha specific notes."
-# SEO
+recommended = false
+
+# Publication Control
+draft = false
+layout = "story"
+github_edit = true
+
+# Advanced SEO
 seo_type = "TechArticle"
 seo_image = "story-markdown-alpha-docs-seo.png"
 +++
@@ -155,15 +164,18 @@ House Targaryen
 
 ### Image
 
-**Important**: Alpha automatically serves **optimized**, **responsive** images in **WebP** format, but ***only*** when they are inside a [page bundle](https://gohugo.io/content-management/page-bundles/ "Hugo page bundles documentation").  
-External images (`https://example.com/image.jpg`) and images in other local folders will not be processed in markdown content.
+Alpha automatically serves **optimized**, **responsive** images in **WebP** format, if they are:
+- Inside a [page bundle](https://gohugo.io/content-management/page-bundles/ "Hugo page bundles documentation") 
+- In the `assets/img/` folder or 
+- From a remote location, example `https://example.com/image.jpg`.
 
 ![An e-reader tablet in front of a stack of books ](pexels-perfecto-capucine-515848-1329571.jpg "Photo by Perfecto Capucine")
 
-To add an image in your article, place your original image inside the **page bundle** folder of the article and then add the markdown code:
-`![Description of the photo](image.jpg "Optional caption")`
+To add an image in your article, place your original image inside the **page bundle** folder of the article or in the `assets/img/` folder and then add the markdown code:
+`![Description of the photo](filename.jpg "Optional caption")`
 
-Since the image is **inside the page bundle**, you only need to reference its filename: `image.jpg`
+For an image from a remote location add the absolute URL of the image:
+`![Description of the photo](https://example.com/image.jpg "Optional caption")`
 
 **Note**: The *"Description of the photo"*, becomes the `<alt>` attribute for accessibility. The *"Optional caption"* is used as the `<figcaption>`. 
 Recommended photo size: **width > 710px**.
