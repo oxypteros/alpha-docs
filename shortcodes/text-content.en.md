@@ -1,22 +1,31 @@
 +++
-draft = false
-date = "2025-05-31T14:23:15+02:00"
-lastmod = ""
-layout = "page"
-
+# Content Identity
 title = "Text Content Shortcode"
+description = "Documentation for Alpha's text content Closed shortcode. Allows embedding styled Markdown content directly into any page layout. Supports inner content."
+
+# Authoring
 author = "oxypteros"
+date = "2025-05-31T14:23:15+02:00"
 license = "CC-BY-SA"
-github_edit = true
-series = "Alpha Docs"
-  parts = "Shortcodes"
-  weight = 230
+
+# Organization
 categories = ["Shortcodes"]
 
-recommended = false
+## Series
+series = "Alpha Docs"
+parts = "Shortcodes"
+weight = 230
+
+# Display
 featured = false
-description = "Documentation for Alpha's text content Closed shortcode. Allows embedding styled Markdown content directly into any page layout. Supports inner content."
-# SEO
+recommended = false
+
+# Publication Control
+draft = false
+layout = "page"
+github_edit = true
+
+# Advanced SEO
 seo_type = "TechArticle"
 seo_image = "text-content-shortcode-alpha-docs-seo.png"
 +++

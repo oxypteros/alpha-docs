@@ -1,22 +1,32 @@
 +++
-draft = false
-date = "2025-05-31T15:27:06+02:00"
-lastmod = ""
-layout = "page"
-
+# Content Identity
 title = "Numbered List Shortcode"
+description = "Alpha's numbered list shortcode guide. Display ordered child pages using card, pill, list, or card-list styles. Ideal for chapters or ordered tutorials. Limit items shown."
+
+# Authoring
 author = "oxypteros"
+date = "2025-05-31T15:27:06+02:00"
+lastmod = "2025-07-14T10:39:13+02:00"
 license = "CC-BY-SA"
-github_edit = true
-series = "Alpha Docs"
-  parts = "Shortcodes"
-  weight = 260
+
+# Organization
 categories = ["Shortcodes"]
 
-recommended = false
+## Series
+series = "Alpha Docs"
+parts = "Shortcodes"
+weight = 260
+
+# Display
 featured = false
-description = "Alpha's numbered list shortcode guide. Display ordered child pages using card, pill, list, or card-list styles. Ideal for chapters or ordered tutorials. Limit items shown."
-# SEO
+recommended = false
+
+# Publication Control
+draft = false
+layout = "page"
+github_edit = true
+
+# Advanced SEO
 seo_type = "TechArticle"
 seo_image = "num-list-shortcode-alpha-docs-seo.png"
 +++
@@ -44,20 +54,16 @@ TITLE
 
 STYLE
 : `STYLE="card-list"` --- (**string**, optional) 
-: Rendering style: **`card`**, **`pill`**, **`list`** or **`card-list`**. 
-: Default: `card`. 
+: Rendering style:  **`pill`**, **`list`** or **`card-list`**, **`card`** (default). 
 
 LIMIT
 : `LIMIT="10"` --- (**integer**, optional)
 : Maximum number of items to display.
 
-### Error Reporting
-- Warnings are printed to the Hugo terminal.
-- LiVa enabled.
 
 #### Error Codes
-liva-sc-101
+liva-sc-180
 : Unrecognized parameter detected.
 
-liva-sc-100
-: Invalid `STYLE` value detected.
+liva-sc-181
+: Invalid number or non integer value.

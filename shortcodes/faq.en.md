@@ -1,22 +1,32 @@
 +++
-draft = false
-date = "2025-05-31T16:07:43+02:00"
-lastmod = ""
-layout = "page"
-
+# Content Identity
 title = "Frequently Asked Questions Shortcode"
+description = "Learn to use Alpha's frequently Asked Questions shortcode. Format simple text FAQs with H2 questions & paragraph answers. Includes title/subtitle options & usage guide."
+
+# Authoring
 author = "oxypteros"
+date = "2025-05-31T16:07:43+02:00"
+lastmod = "2025-07-14T10:43:37+02:00"
 license = "CC-BY-SA"
-github_edit = true
-series = "Alpha Docs"
-  parts = "Shortcodes"
-  weight = 270
+
+# Organization
 categories = ["Shortcodes"]
 
-recommended = false
+## Series
+series = "Alpha Docs"
+parts = "Shortcodes"
+weight = 270
+
+# Display
 featured = false
-description = "Learn to use Alpha's frequently Asked Questions shortcode. Format simple text FAQs with H2 questions & paragraph answers. Includes title/subtitle options & usage guide."
-# SEO
+recommended = false
+
+# Publication Control
+draft = false
+layout = "page"
+github_edit = true
+
+# Advanced SEO
 seo_type = "TechArticle"
 seo_image = "faq-shortcode-alpha-docs-seo.png"
 +++
@@ -83,10 +93,6 @@ SUBTITLE
 Inner Content 
 : H2 headings are rendered as questions, and the first following `<p>` element is rendered as the answer. Supports Markdown styling only if enclosed within the paragraph.
 
-### Error Reporting
-- Warnings are printed to the Hugo terminal.
-- LiVa enabled.
-
 #### Error Codes
-liva-sc-151
+liva-sc-190
 : Unrecognized parameter detected.

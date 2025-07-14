@@ -1,22 +1,32 @@
 +++
-draft = false
-date = "2025-05-31T16:16:18+02:00"
-lastmod = ""
-layout = "page"
-
+# Content Identity
 title = "About Shortcode"
+description = "Documentation for Alpha's about shortcode. Display minimal author info with an avatar, name, and Markdown biography text."
+
+# Authoring
 author = "oxypteros"
+date = "2025-05-31T16:16:18+02:00"
+lastmod = "2025-07-14T10:45:29+02:00"
 license = "CC-BY-SA"
-github_edit = true
-series = "Alpha Docs"
-  parts = "Shortcodes"
-  weight = 280
+
+# Organization
 categories = ["Shortcodes"]
 
-recommended = false
+## Series
+series = "Alpha Docs"
+parts = "Shortcodes"
+weight = 280
+
+# Display
 featured = false
-description = "Documentation for Alpha's about shortcode. Display minimal author info with an avatar, name, and Markdown biography text."
-# SEO
+recommended = false
+
+# Publication Control
+draft = false
+layout = "page"
+github_edit = true
+
+# Advanced SEO
 seo_type = "TechArticle"
 seo_image = "about-shortcode-alpha-docs-seo.png"
 +++
@@ -48,7 +58,7 @@ seo_image = "about-shortcode-alpha-docs-seo.png"
 A minimal **About the Author** element with avatar, name, and bio text.
 
 ### Usage
-- Place the avatar image inside `/assets/img/` and set its filename (`filename.jpg`) as the value for the `AVATAR` parameter. The image will be resized and converted to WebP.
+- Place the avatar image inside `assets/img/` and set its filename (`filename.jpg`) as the value for the `AVATAR` parameter. The image will be resized and converted to WebP.
 - If the `AUTHOR` parameter is omitted, the `author` value of the page will be used.
 - This shortcode **requires both** an opening and a closing tag
 
@@ -59,18 +69,15 @@ AUTHOR
 
 AVATAR
 : `AVATAR="image.jpg"` --- (**string**, optional) 
-: Filename (**including extension**) of the avatar image, placed at `/assets/img/`. 
+: Filename (**including extension**) of the avatar image, placed at `assets/img/`. 
 
 Inner Content 
 : The main biography text. Markdown formatting supported.
 
-### Error Reporting
-- Warnings are printed to the Hugo terminal.
-- LiVa enabled.
 
 #### Error Codes
-liva-sc-161
+liva-sc-200
 : Unrecognized parameter detected.
 
-liva-sc-162
-: Image not found. Check filename in `/assets/img/` path.
+liva-sc-209
+: Image not found. Check filename in `assets/img/` path.

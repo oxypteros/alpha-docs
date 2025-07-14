@@ -1,22 +1,32 @@
 +++
-draft = false
-date = "2025-05-30T18:00:55+02:00"
-lastmod = ""
-layout = "page"
-
+# Content Identity
 title = "Content Organization"
+description = "Learn Alpha's recommended content organization. Understand sections, page bundles (required for images), _index.md, index.md, and file structure."
+
+# Authoring
 author = "oxypteros"
+date = "2025-05-30T18:00:55+02:00"
+lastmod = "2025-07-14T08:31:19+02:00"
 license = "CC-BY-SA"
-github_edit = true
-series = "Alpha Docs"
-  parts = "Content Structure"
-  weight = 170
+
+# Organization
 categories = ["Content"]
 
-recommended = false
+## Series
+series = "Alpha Docs"
+parts = "Content Structure"
+weight = 170
+
+# Display
 featured = false
-description = "Learn Alpha's recommended content organization. Understand sections, page bundles (required for images), _index.md, index.md, and file structure."
-# SEO
+recommended = false
+
+# Publication Control
+draft = false
+layout = "page"
+github_edit = true
+
+# Advanced SEO
 seo_type = "TechArticle"
 seo_image = "content-organization-alpha-docs-seo.png"
 +++
@@ -58,7 +68,7 @@ Any folder inside `content/` that contains an `index.md` file is treated as a **
 
 Page bundles allow you to keep all page specific resources (like images) alongside the page content in the same folder. Ideal for keeping things tidy.
 
-With Alpha, if you want to add images to a post, you **must use a page bundle**. 
+With Alpha, if you want to add images to a post, you **should use a page bundle**—that’s the recommended way. Alternatively, you can place images in `assets/img/`, but page bundles make it easier to manage.
 
 Expanding the previous example:
 ```bash
@@ -72,6 +82,8 @@ content
 ```
 - Navigating to `example.com/articles/first-article/` renders the page using `index.md` and the **page layout**.
 - `image.jpg` is accessible only within `first-article/`, keeping page resources organized and scoped to their specific content.
+
+Just by looking at the folder tree, you instantly know that `image.jpg` belongs to `first-article`. This link between pages and resources really helps once your content grows.
 
 ## Markdown Files
 Markdown files provide the actual content of your pages. What’s rendered depends on:
@@ -112,7 +124,7 @@ content
 ```
 - `first-article/` is a page bundle. URL: `/articles/first-article/`
 - `second-article.md` is a single file. URL: `/articles/second-article/`
-- `policy.md` is a single file. URL: /policy/
+- `policy.md` is a single file. URL: `/policy/`
 - Only `first-article/` can use `image.jpg` as a page resource.
 
 ## Other files
@@ -120,4 +132,4 @@ Hugo supports many file types, but Alpha officially supports:
 - Markdown files for content
 - Images (within page bundles only)
 
-Future versions will support additional resource types (e.g., video, audio), but Alpha’s focus will always remain on **textual content**.
+Future versions will support additional resource types (e.g. video, audio), but Alpha’s focus will always remain on **textual content**.

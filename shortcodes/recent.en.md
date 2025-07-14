@@ -1,22 +1,32 @@
 +++
-draft = false
-date = "2025-05-31T14:50:40+02:00"
-lastmod = ""
-layout = "page"
-
+# Content Identity
 title = "Recent Posts Shortcode"
+description = "Display a list of recent posts with optional title and limit. Automatically highlights new content."
+
+# Authoring
 author = "oxypteros"
+date = "2025-05-31T14:50:40+02:00"
+lastmod = "2025-07-14T10:25:28+02:00"
 license = "CC-BY-SA"
-github_edit = true
-series = "Alpha Docs"
-  parts = "Shortcodes"
-  weight = 240
+
+# Organization
 categories = ["Shortcodes"]
 
-recommended = false
+## Series
+series = "Alpha Docs"
+parts = "Shortcodes"
+weight = 240
+
+# Display
 featured = false
-description = "Display a list of recent posts with optional title and limit. Automatically highlights new content."
-# SEO
+recommended = false
+
+# Publication Control
+draft = false
+layout = "page"
+github_edit = true
+
+# Advanced SEO
 seo_type = "TechArticle"
 seo_image = "recent-shortcode-alpha-docs-seo.png"
 +++
@@ -49,3 +59,10 @@ LIMIT
 : `LIMIT="4"` --- (**integer**, optional)
 : Maximum number of posts to display.
 : Default value: `4`
+
+#### Error Codes
+liva-sc-160
+: Unrecognized parameter detected.
+
+liva-sc-161
+: Invalid number or non integer value.

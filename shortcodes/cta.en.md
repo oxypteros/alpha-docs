@@ -1,22 +1,32 @@
 +++
-draft = false
-date = "2025-05-31T15:13:33+02:00"
-lastmod = ""
-layout = "page"
-
+# Content Identity
 title = "Call to Action Shortcode"
+description = "Guide for Alpha's Call to Action shortcode. Add effective text-based Call To Action elements with a button to your homepage or section pages."
+
+# Authoring
 author = "oxypteros"
+date = "2025-05-31T15:13:33+02:00"
+lastmod = "2025-07-14T10:29:44+02:00"
 license = "CC-BY-SA"
-github_edit = true
-series = "Alpha Docs"
-  parts = "Shortcodes"
-  weight = 250
+
+# Organization
 categories = ["Shortcodes"]
 
-recommended = false
+## Series
+series = "Alpha Docs"
+parts = "Shortcodes"
+weight = 250
+
+# Display
 featured = false
-description = "Guide for Alpha's Call to Action shortcode. Add effective text-based Call To Action elements with a button to your homepage or section pages."
-# SEO
+recommended = false
+
+# Publication Control
+draft = false
+layout = "page"
+github_edit = true
+
+# Advanced SEO
 seo_type = "TechArticle"
 seo_image = "cta-shortcode-alpha-docs-seo.png"
 +++
@@ -39,7 +49,7 @@ What secrets remain buried? Learn more in our latest ***podcast***.
 {{</* cta
 TITLE="Latest Episode: The Last Donut"
 BTN-TEXT="Listen Now"
-BTN-LINK="/podcast/the-last-donut"
+BTN-LINK="/podcast/the-last-donut/"
 BTN-LABEL="Listen to the full story now"
 */>}}
 
@@ -66,7 +76,7 @@ BTN-TEXT
 : Text for the button-styled link.
 
 BTN-LINK
-: `BTN-LINK="/link/to/path"` --- (**string**, optional) 
+: `BTN-LINK="/link/to/path/"` --- (**string**, optional) 
 :  `href` attribute for button-styled link. Requires `BTN-TEXT` to be set.
 
 BTN-LABEL
@@ -76,13 +86,10 @@ BTN-LABEL
 Inner Content 
 : The main body of text. Supports Markdown formatting.
 
-### Error Reporting
-- Warnings are printed to the Hugo terminal.
-- LiVa enabled.
 
 #### Error Codes
-liva-sc-141
+liva-sc-170
 : Unrecognized parameter detected.
 
-liva-sc-142
-: `BTN-LINK` is provided but `BTN-TEXT` is missing.
+liva-sc-172
+: Incomplete link/text pair.

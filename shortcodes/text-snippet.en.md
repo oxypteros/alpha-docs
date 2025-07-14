@@ -1,22 +1,32 @@
 +++
-draft = false
-date = "2025-05-31T13:01:01+02:00"
-lastmod = ""
-layout = "page"
-
+# Content Identity
 title = "Text Snippet Shortcode"
+description = "Documentation for the Alpha's text-snippet closing shortcode. Learn to add centered text blocks with optional titles using Markdown content. Params & usage."
+
+# Authoring
 author = "oxypteros"
+date = "2025-05-31T13:01:01+02:00"
+lastmod = "2025-07-14T10:15:22+02:00"
 license = "CC-BY-SA"
-github_edit = true
-series = "Alpha Docs"
-  parts = "Shortcodes"
-  weight = 210
+
+# Organization
 categories = ["Shortcodes"]
 
-recommended = false
+## Series
+series = "Alpha Docs"
+parts = "Shortcodes"
+weight = 210
+
+# Display
 featured = false
-description = "Documentation for the Alpha's text-snippet closing shortcode. Learn to add centered text blocks with optional titles using Markdown content. Params & usage."
-# SEO
+recommended = false
+
+# Publication Control
+draft = false
+layout = "page"
+github_edit = true
+
+# Advanced SEO
 seo_type = "TechArticle"
 seo_image = "text-snippet-shortcode-alpha-docs-seo.png"
 +++
@@ -54,10 +64,7 @@ TITLE
 Inner Content 
 : The main body of text. Supports Markdown formatting. 
 
-### Error Reporting
-- Warnings are printed to the Hugo terminal.
-- LiVa enabled.
 
 #### Error Codes
-liva-sc-111
+liva-sc-130
 : Unrecognized parameter detected.

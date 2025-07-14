@@ -1,21 +1,28 @@
 +++
-draft = false
+# Content Identity
+title = "Shortcodes"
+description = "Discover Alpha theme's shortcodes. Learn how they empower you to design, enrich, and customize your site, all without touching a line of theme code."
+
+# Dates
 date = "2025-05-30T19:11:30+02:00"
-lastmod = ""
-layout = "list"
+
+# Pagination
 paginate = false
 
-title = "Shortcodes"
-author = "oxypteros"
-license = "CC-BY-SA"
+# Series
 series = "Alpha Docs"
-  weight = 180
-description = "Discover Alpha theme's shortcodes. Learn how they empower you to design, enrich, and customize your site, all without touching a line of theme code."
-# SEO
+weight = 180
+
+# Publication Control
+draft = false
+layout = "list"
+
+# Advanced SEO
 seo_type = "TechArticle"
 seo_image = "shortcodes-alpha-docs-seo.png"
+author = "oxypteros"
+license = "CC-BY-SA"
 +++
- 
 {{< text_snippet >}}
 
 In Alpha shortcodes play a crucial role. They not only enhance your content beyond Markdown's limitations but also let you design and customize your site.
@@ -34,7 +41,7 @@ This may introduce a small learning curve before you start producing content, bu
 All Alpha shortcodes:
 - Follow the design philosophy of Alpha.
 - Integrate seamlessly with the layout system.
-- Are fully supported by **OCD**, Alpha’s built-in helper.
+- Are fully supported by **LiVa**, Alpha’s built-in helper.
 
 Because shortcodes are so central to how Alpha works, their documentation is presented early.  
 Feel free to **skim through** now to get a rough idea, then **come back when you actually need one**.

@@ -1,22 +1,32 @@
 +++
-draft = false
-date = "2025-05-31T16:23:43+02:00"
-lastmod = ""
-layout = "page"
-
+# Content Identity
 title = "Social Networks Shortcode"
+description = "Documentation for Alpha's social shortcode. Display a list of social media icons-links from your configured menu."
+
+# Authoring
 author = "oxypteros"
+date = "2025-05-31T16:23:43+02:00"
+lastmod = "2025-07-14T10:51:47+02:00"
 license = "CC-BY-SA"
-github_edit = true
-series = "Alpha Docs"
-  parts = "Shortcodes"
-  weight = 400
+
+# Organization
 categories = ["Shortcodes"]
 
-recommended = false
+## Series
+series = "Alpha Docs"
+parts = "Shortcodes"
+weight = 400
+
+# Display
 featured = false
-description = "Documentation for Alpha's social shortcode. Display a list of social media icons-links from your configured menu."
-# SEO
+recommended = false
+
+# Publication Control
+draft = false
+layout = "page"
+github_edit = true
+
+# Advanced SEO
 seo_type = "TechArticle"
 seo_image = "social-shortcode-alpha-docs-seo.png"
 +++
@@ -32,25 +42,23 @@ seo_image = "social-shortcode-alpha-docs-seo.png"
 Renders a minimal list of social network links with icons for major platforms.
 
 ### Usage
-- The shortcode will render the menu `sc_social` defined in your site's configuration file (`/config/_default/menus.toml`).
+- The shortcode will render the menu `sc_social` defined in your site's configuration file (`config/_default/menus.toml`).
 - You can limit the number of entries shown using the optional `LIMIT` parameter. 
 - For more details, refer to the [social menu documentation](/docs/config/menus-toml/#social-menus).
-
 ### Parameters Reference
 LIMIT
 : `LIMIT="5"` --- (**integer**, optional) 
 : The number of items to display from the `sc_social` menu. 
 
-### Error Reporting
-- Warnings are printed to the Hugo terminal.
-- LiVa enabled.
 
 #### Error Codes
-liva-sc-171
+liva-sc-220
 : Unrecognized parameter detected.
 
-liva-sc-172
+liva-sc-221
+: Invalid number or non integer value.
+
+liva-sc-228
 : Menu `sc_social` is not defined.
 
-liva-sc-173
-: Invalid value for parameter `LIMIT`. Must be an integer.
+

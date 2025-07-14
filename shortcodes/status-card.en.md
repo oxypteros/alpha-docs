@@ -1,22 +1,32 @@
 +++
-draft = false
-date = "2025-05-31T16:26:21+02:00"
-lastmod = ""
-layout = "page"
-
+# Content Identity
 title = "Status Card Shortcode"
+description = "Documentation for Alpha's status card shortcode. Render styled cards (info, error, warning, success) with Markdown content and optional titles."
+
+# Authoring
 author = "oxypteros"
+date = "2025-05-31T16:26:21+02:00"
+lastmod = "2025-07-14T10:49:05+02:00"
 license = "CC-BY-SA"
-github_edit = true
-series = "Alpha Docs"
-  parts = "Shortcodes"
-  weight = 290
+
+# Organization
 categories = ["Shortcodes"]
 
-recommended = false
+## Series
+series = "Alpha Docs"
+parts = "Shortcodes"
+weight = 290
+
+# Display
 featured = false
-description = "Documentation for Alpha's status card shortcode. Render styled cards (info, error, warning, success) with Markdown content and optional titles."
-# SEO
+recommended = false
+
+# Publication Control
+draft = false
+layout = "page"
+github_edit = true
+
+# Advanced SEO
 seo_type = "TechArticle"
 seo_image = "status-card-shortcode-alpha-docs-seo.png"
 +++
@@ -56,19 +66,15 @@ TITLE
 
 TYPE
 : `TYPE="error"` --- (**string**, optional) 
-: Card types: **`error`**, **`warning`**, **`success`** or **`info`**. 
-: Default value: `info`.
+: Card types: **`error`**, **`warning`**, **`success`**, **`info`** (default). 
 
 Inner Content 
 : Main card content. Supports Markdown formatting. 
 
-### Error Reporting
-- Warnings are printed to the Hugo terminal.
-- LiVa enabled.
 
 #### Error Codes
-liva-sc-131
+liva-sc-210
 : Unrecognized parameter detected.
 
-liva-sc-130
-: Invalid `TYPE` value detected.
+liva-sc-211
+: Invalid value detected.

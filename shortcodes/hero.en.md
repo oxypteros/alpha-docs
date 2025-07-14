@@ -1,22 +1,32 @@
 +++
-draft = false
-date = "2025-05-31T10:25:57+02:00"
-lastmod = ""
-layout = "page"
-
+# Content Identity
 title = "Hero Shortcode"
+description = "Documentation for Alpha's hero shortcode. Create a text-based hero section with title, subtitle, and two call-to-action links. Ideal for homepages or section intros."
+
+# Authoring
 author = "oxypteros"
+date = "2025-05-31T10:25:57+02:00"
+lastmod = "2025-07-14T09:19:19+02:00"
 license = "CC-BY-SA"
-github_edit = true
-series = "Alpha Docs"
-  parts = "Shortcodes"
-  weight = 190
+
+# Organization
 categories = ["Shortcodes"]
 
-recommended = false
+## Series
+series = "Alpha Docs"
+parts = "Shortcodes"
+weight = 190
+
+# Display
 featured = false
-description = "Documentation for Alpha's hero shortcode. Create a text-based hero section with title, subtitle, and two call-to-action links. Ideal for homepages or section intros."
-# SEO
+recommended = false
+
+# Publication Control
+draft = false
+layout = "page"
+github_edit = true
+
+# Advanced SEO
 seo_type = "TechArticle"
 seo_image = "hero-shortcode-alpha-docs-seo.png"
 +++
@@ -87,16 +97,9 @@ LINK-LABEL
 : `LINK-LABEL="Example label"` --- (**string**, optional) 
 : `aria-label` attribute for the secondary link. (string, optional)
 
-### Error Reporting
-- Warnings are printed to the Hugo terminal.
-- LiVa enabled.
-
 #### Error Codes
-liva-sc-121
+liva-sc-110
 : Unrecognized parameter detected.
 
-liva-sc-122
-: `BTN-LINK` is provided but `BTN-TEXT` is missing.
-
-liva-sc-123
-: `LINK` is provided but `LINK-TEXT` is missing.
+liva-sc-112
+: Incomplete link/text pair.
