@@ -1,22 +1,31 @@
 +++
-draft = false
-date = "2025-06-04T14:43:47+02:00"
-lastmod = ""
-layout = "page"
-
+# Content Identity
 title = "Cloudflare Pages"
+description = "Cloudflare Pages deployment guide for Alpha Hugo theme. Covers Git-based and direct upload methods, build configurations, environment variables and optional security headers."
+
+# Authoring
 author = "oxypteros"
+date = "2025-06-04T14:43:47+02:00"
 license = "CC-BY-SA"
-github_edit = true
-series = "Alpha Docs"
-  parts = "Host & Deploy"
-  weight = 590
+
+# Organization
 categories = ["Host & Deploy"]
 
-recommended = false
+## Series
+series = "Alpha Docs"
+parts = "Host & Deploy"
+weight = 590
+
+# Display
 featured = false
-description = "Cloudflare Pages deployment guide for Alpha Hugo theme. Covers Git-based and direct upload methods, build configurations, environment variables and optional security headers."
-# SEO
+recommended = false
+
+# Publication Control
+draft = false
+layout = "page"
+github_edit = true
+
+# Advanced SEO
 seo_type = "TechArticle"
 seo_image = "cloudflare-alpha-docs-seo.png"
 +++
@@ -52,7 +61,7 @@ Set the following:
     ```
 4. **Environment variables** ( `+ Add variable`)
     - Variable name: `HUGO_VERSION`
-    - Value: `0.147.7`
+    - Value: `0.148.0`
     **Note**: Use a `HUGO_VERSION` greater than `0.146.1`, ideally matching your local version.
 
 Once complete, click **Save and Deploy**. 
@@ -73,7 +82,7 @@ Every consecutive push to your GitHub or GitLab repository will automatically tr
         ```bash
         hugo --gc --minify
         ```
-        **Note**: Search requires [Node.js installed locally](/docs/developing-alpha/install-node/).
+        **Note**: Search requires Node.js installed locally.
 3. In Cloudflare click **select from computer**, choose your local `public/` folder, and upload it.
 4. Click **Deploy Site** and then **Continue to Project**.
 
@@ -83,7 +92,7 @@ For future updates (deployments):
 3. Click **Create deployment** and re-upload the updated `public/` folder.
 
 ## Custom Headers File (Optional)
-Alpha includes a `_headers` file preconfigured for a default Alpha installation, located at: `/themes/alpha/static/_headers`. 
+Alpha includes a `_headers` file preconfigured for a default Alpha installation, located at: `themes/alpha/static/_headers`. 
 
 This file allows you define security HTTP headers for your Cloudflare Pages deployment. Refer to the official [official documentation](https://developers.cloudflare.com/pages/configuration/headers/) for complete syntax, usage examples, and header options.
 
@@ -94,5 +103,5 @@ Some headers (especially related to **cross-origin policies** or **Content Secur
 {{< /status_card >}}
 
 ### How to Use
-1. **Copy** the `_headers` file from `/themes/alpha/static` to your site's `static/` directory.
+1. **Copy** the `_headers` file from `themes/alpha/static` to your site's `static/` directory.
 2. **Review** and **customize** the rules to match your site’s security and performance needs.

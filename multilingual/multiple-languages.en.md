@@ -1,22 +1,31 @@
 +++
-draft = false
-date = "2025-06-03T16:05:12+02:00"
-lastmod = ""
-layout = "page"
-
+# Content Identity
 title = "Multiple Languages"
+description = "Set up a multilingual Alpha Hugo site. Configure languages, create translated content, and manage URL slugs."
+
+# Authoring
 author = "oxypteros"
+date = "2025-06-03T16:05:12+02:00"
 license = "CC-BY-SA"
-github_edit = true
-series = "Alpha Docs"
-  parts = "Multilingual"
-  weight = 510
+
+# Organization
 categories = ["Content"]
 
-recommended = false
+## Series
+series = "Alpha Docs"
+parts = "Multilingual"
+weight = 510
+
+# Display
 featured = false
-description = "Set up a multilingual Alpha Hugo site. Configure languages, create translated content, and manage URL slugs."
-# SEO
+recommended = false
+
+# Publication Control
+draft = false
+layout = "page"
+github_edit = true
+
+# Advanced SEO
 seo_type = "TechArticle"
 seo_image = "multiple-languages-alpha-docs-seo.png"
 +++
@@ -24,26 +33,26 @@ To enable Alpha's multilingual features, ensure **at least two languages** are d
 
 ## Set Up Multiple Languages
 
-To do that, edit the `/config/_default/languages.toml` configuration file.
+To do that, edit the `config/_default/languages.toml` configuration file.
 By default, it contains only the English language block:
 ```toml
 [en]
-  weight = 1
   languageName = "English"
-  languageCode = "en"
+  languageCode = "en"  
+  weight = 1
 ```
 If, for example, you want to use only Spanish and Italian, you must add the corresponding language blocks:
 
 ```toml
 [es]
-  weight = 1
   languageName = "Español"
   languageCode = "es"
+  weight = 1
 
 [it]
-  weight = 2
   languageName = "Italiano"
   languageCode = "it"
+  weight = 2
 ```
 **Note**: See the [language.toml documentation](/docs/config/languages-toml/) for more details.
 

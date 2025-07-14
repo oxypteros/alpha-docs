@@ -1,22 +1,31 @@
 +++
-draft = false
-date = "2025-06-05T16:31:00+02:00"
-lastmod = ""
-layout = "page"
-
+# Content Identity
 title = "Vercel"
-author = "oxypteros"
-license = "CC-BY-SA"
-github_edit = false
-series = "Alpha Docs"
-  parts = "Deployment"
-  weight = 610
-categories = ["Deployment"]
-
-recommended = false
-featured = false
 description = "Vercel deployment for Alpha theme: Configure project settings, build commands, env vars, manage domains, and leverage vercel.json for advanced control."
-# SEO
+
+# Authoring
+author = "oxypteros"
+date = "2025-06-05T16:31:00+02:00"
+license = "CC-BY-SA"
+
+# Organization
+categories = ["Host & Deploy"]
+
+## Series
+series = "Alpha Docs"
+parts = "Host & Deploy"
+weight = 610
+
+# Display
+featured = false
+recommended = false
+
+# Publication Control
+draft = false
+layout = "page"
+github_edit = true
+
+# Advanced SEO
 seo_type = "TechArticle"
 seo_image = "vercel-alpha-docs-seo.png"
 +++
@@ -48,7 +57,7 @@ Vercel **does not** check for name availability during setup. If the `[project-n
     hugo --gc --minify
     ```
 4. In the **Environment Variables** add:
-    - Key: `HUGO_VERSION` --- Value: `0.147.7`
+    - Key: `HUGO_VERSION` --- Value: `0.148.0`
     **Note**: Use a `HUGO_VERSION` greater than `0.146.1`, ideally matching your local version.
 
 5. Click **Deploy**.
@@ -91,5 +100,5 @@ JSON does not officially support comments (even though Vercel’s parser allows 
 
 ### How to use:
 
-1. **Copy** the file from `/themes/alpha/vercel.json` to your site's  root directory (**not** `static/`, but the actual root of your project).
+1. **Copy** the file from `themes/alpha/vercel.json` to your site's  root directory (**not** `static/`, but the actual root of your project).
 2. **Review** and **customize** the rules to match your site’s security and performance needs.

@@ -1,21 +1,28 @@
 +++
-draft = false
+# Content Identity
+title = "Integrations"
+description = "Alpha theme integrations documentation. Guides for setting up built-in search with Pagefind and privacy-friendly web analytics using GoatCounter."
+
+# Dates
 date = "2025-06-03T16:41:47+02:00"
-lastmod = ""
-layout = "list"
+
+# Pagination
 paginate = false
 
-title = "Integrations"
-author = "oxypteros"
-license = "CC-BY-SA"
+# Series
 series = "Alpha Docs"
-  weight = 530
-description = "Alpha theme integrations documentation. Guides for setting up built-in search with Pagefind and privacy-friendly web analytics using GoatCounter."
-# SEO
+weight = 530
+
+# Publication Control
+draft = false
+layout = "list"
+
+# Advanced SEO
 seo_type = "TechArticle"
 seo_image = "integrations-alpha-docs-seo.png"
+author = "oxypteros"
+license = "CC-BY-SA"
 +++
-
 {{< text_snippet >}}
 
 Alpha is an standalone Hugo theme with no hard dependencies.  

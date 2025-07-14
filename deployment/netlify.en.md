@@ -1,22 +1,31 @@
 +++
-draft = false
-date = "2025-06-05T11:51:48+02:00"
-lastmod = ""
-layout = "page"
-
+# Content Identity
 title = "Netlify"
-author = "oxypteros"
-license = "CC-BY-SA"
-github_edit = true
-series = "Alpha Docs"
-  parts = "Deployment"
-  weight = 600
-categories = ["Deployment"]
-
-recommended = false
-featured = false
 description = "Netlify deployment for Alpha theme: Learn to deploy via Git/upload, set build commands, env vars (Hugo/Node), manage baseURL, and use netlify.toml."
-# SEO
+
+# Authoring
+author = "oxypteros"
+date = "2025-06-05T11:51:48+02:00"
+license = "CC-BY-SA"
+
+# Organization
+categories = ["Host & Deploy"]
+
+## Series
+series = "Alpha Docs"
+parts = "Host & Deploy"
+weight = 600
+
+# Display
+featured = false
+recommended = false
+
+# Publication Control
+draft = false
+layout = "page"
+github_edit = true
+
+# Advanced SEO
 seo_type = "TechArticle"
 seo_image = "netlify-alpha-docs-seo.png"
 +++
@@ -51,7 +60,7 @@ Set the following:
     ```
 - **Environment variables** ( Add key/value pairs)
   - Key: `HUGO_VERSION` 
-  - Value: `0.147.3`
+  - Value: `0.148.0`
   **Note**: Use a `HUGO_VERSION` greater than `0.146.1`, ideally matching your local version.
 
 Click **Deploy `[project-name]`**. 
@@ -69,7 +78,7 @@ Every push to your Git repository will trigger an automatic deployment.
     ```bash
     hugo --gc --minify
     ```
-    **Note**: Pagefind search requires [Node.js installed locally](/docs/developing-alpha/install-node/).
+    **Note**: Pagefind search requires Node.js installed locally.
 2. On the *Projects* page under ***...or deploy manually***  click **browse to upload**.
 3. Change file type filter from `.zip` to **All files**, then upload your built `public/` folder.
 4. At the *Deploy success!* click **Get Started**
@@ -97,11 +106,11 @@ For future deployments:
 ### Netlify TOML
 Netlify settings can be configured not only from the Netlify dashboard but also from a `netlify.toml` file placed at the root of your project.
 
-Alpha includes a boilerplate `netlify.toml` file with two base rules: `build.command` and `build.environment`.
+Alpha includes a demo `netlify.toml` file with one base rule: `build.command` and `build.environment`.
 You’ll find this file at: `themes/alpha/netlify.toml`
 
 #### How to Use
-1. **Copy** the file from `/themes/alpha/netlify.toml` to your site's  root directory (**not** `static/`, but the actual root of your project).
+1. **Copy** the file from `themes/alpha/netlify.toml` to your site's  root directory (**not** `static/`, but the actual root of your project).
 2. **Customize** and **expand** the configuration as needed for your project.
 
 This file is a starting point. For a complete reference, see the official [Netlify netlify.toml documentation](https://docs.netlify.com/configure-builds/file-based-configuration/).
@@ -114,7 +123,7 @@ Alpha recommends using the file **only** for settings that can't be configured i
 {{< /status_card >}}
 
 ### Custom Headers File
-Alpha also includes a `_headers` file preconfigured for a default Alpha installation, located at: `/themes/alpha/static/_headers`. 
+Alpha also includes a `_headers` file preconfigured for a default Alpha installation, located at: `themes/alpha/static/_headers`. 
 
 This file allows you to define HTTP headers for Netlify, including security-related ones. 
 
@@ -127,5 +136,5 @@ Some headers (especially related to **cross-origin policies** or **Content Secur
 {{< /status_card >}}
 
 #### How to Use
-1. **Copy** the `_headers` file from `/themes/alpha/static` to your site's own`static/` directory.
+1. **Copy** the `_headers` file from `themes/alpha/static` to your site's own`static/` directory.
 2. **Review** and **customize** the rules to match your site’s security and performance needs.

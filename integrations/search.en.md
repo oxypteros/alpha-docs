@@ -1,22 +1,31 @@
 +++
-draft = false
-date = "2025-06-04T11:50:40+02:00"
-lastmod = ""
-layout = "page"
-
+# Content Identity
 title = "Search"
+description = "Add search to your Alpha site using Pagefind. Guide covers enabling the feature, build commands for deployment (Netlify, Vercel, Cloudflare) and local use."
+
+# Authoring
 author = "oxypteros"
+date = "2025-06-04T11:50:40+02:00"
 license = "CC-BY-SA"
-github_edit = true
-series = "Alpha Docs"
-  parts = "Integrations"
-  weight = 550
+
+# Organization
 categories = ["Integrations"]
 
-recommended = false
+## Series
+series = "Alpha Docs"
+parts = "Integrations"
+weight = 550
+
+# Display
 featured = false
-description = "Add search to your Alpha site using Pagefind. Guide covers enabling the feature, build commands for deployment (Netlify, Vercel, Cloudflare) and local use."
-# SEO
+recommended = false
+
+# Publication Control
+draft = false
+layout = "page"
+github_edit = true
+
+# Advanced SEO
 seo_type = "TechArticle"
 seo_image = "search-alpha-docs-seo.png"
 +++
@@ -24,7 +33,7 @@ Alpha's search functionality is powered by Pagefind. You can learn more about it
 
 ## Enable Search
 To enable search, (disabled by default):
-1. Set `pagefind_enabled = true` in `/config/_default/params.toml`. 
+1. Set `pagefind_enabled = true` in `config/_default/params.toml`. 
 (This enables the search button and Alpha's JavaScript required for the search functionality.)
 2. Add **Pagefind** to your build.
 
@@ -43,7 +52,7 @@ If you’re building your site **locally** or testing search before deployment, 
 ```bash
 hugo --gc --minify && npx pagefind --site "public"
 ```
-**Note**: You must have [Node.js installed](/docs/developing-alpha/install-node/)on your local system.
+**Note**: You must have Node.js installed on your local system.
 
 ### How it works
 Pagefind is installed in Hugo’s `public/` folder (Hugo's default output directory). It scans the generated HTML and builds a lightweight search index from your site’s content.

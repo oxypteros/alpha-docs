@@ -1,19 +1,27 @@
 +++
-draft = false
+# Content Identity
+title = "Multilingual"
+description = "Alpha theme multilingual documentation. Guides for using a single language, setting up multiple languages, and translating Alpha's UI elements."
+
+# Dates
 date = "2025-06-03T15:49:03+02:00"
-lastmod = ""
-layout = "list"
+
+# Pagination
 paginate = false
 
-title = "Multilingual"
-author = "oxypteros"
-license = "CC-BY-SA"
+# Series
 series = "Alpha Docs"
-  weight = 490
-description = "Alpha theme multilingual documentation. Guides for using a single language, setting up multiple languages, and translating Alpha's UI elements."
-# SEO
+weight = 490
+
+# Publication Control
+draft = false
+layout = "list"
+
+# Advanced SEO
 seo_type = "TechArticle"
 seo_image = "multilingual-alpha-docs-seo.png"
+author = "oxypteros"
+license = "CC-BY-SA"
 +++
 {{< text_snippet >}}
 

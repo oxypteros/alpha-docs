@@ -1,22 +1,31 @@
 +++
-draft = false
-date = "2025-06-03T15:57:40+02:00"
-lastmod = ""
-layout = "page"
-
+# Content Identity
 title = "Single Language"
+description = "Use Alpha Hugo theme in a single language other than English. Learn to set your default language (e.g., French, Spanish) in languages.toml."
+
+# Authoring
 author = "oxypteros"
+date = "2025-06-03T15:57:40+02:00"
 license = "CC-BY-SA"
-github_edit = true
-series = "Alpha Docs"
-  parts = "Multilingual"
-  weight = 500
+
+# Organization
 categories = ["Content"]
 
-recommended = false
+## Series
+series = "Alpha Docs"
+parts = "Multilingual"
+weight = 500
+
+# Display
 featured = false
-description = "Use Alpha Hugo theme in a single language other than English. Learn to set your default language (e.g., French, Spanish) in languages.toml."
-# SEO
+recommended = false
+
+# Publication Control
+draft = false
+layout = "page"
+github_edit = true
+
+# Advanced SEO
 seo_type = "TechArticle"
 seo_image = "single-language-alpha-docs-seo.png"
 +++
@@ -24,21 +33,21 @@ If you're planning to use Alpha exclusively in a language **other than English**
 
 ## Set Up Another Language
 
-To do that, edit the `/config/_default/languages.toml` configuration file.
+To do that, edit the `config/_default/languages.toml` configuration file.
 By default, this file contains:
 ```toml
 [en]
-  weight = 1
   languageName = "English"
   languageCode = "en"
+  weight = 1
 ```
-For example, if you want to use **Canadian French**, you should **edit** (not add a new block) the existing section to this:
+If you want, for example, to use **Canadian French**, you should **edit** (not add a new block) the existing section to this:
 
 ```toml
 [fr]
-  weight = 1
   languageName = "Français"
-  languageCode = "fr-CA"
+  languageCode = "fr-CA" 
+  weight = 1
 ```
 **Note**: See the [language.toml documentation](/docs/config/languages-toml/) for more details.
 

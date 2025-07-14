@@ -1,22 +1,31 @@
 +++
-draft = false
-date = "2025-06-04T12:00:50+02:00"
-lastmod = ""
-layout = "page"
-
+# Content Identity
 title = "Web Analytics"
+description = "Integrate privacy-friendly GoatCounter analytics in Alpha. Guide covers simple setup, local script usage, opt-out features, and important considerations."
+
+# Authoring
 author = "oxypteros"
+date = "2025-06-04T12:00:50+02:00"
 license = "CC-BY-SA"
-github_edit = true
-series = "Alpha Docs"
-  parts = "Integrations"
-  weight = 560
+
+# Organization
 categories = ["Integrations"]
 
-recommended = false
+## Series
+series = "Alpha Docs"
+parts = "Integrations"
+weight = 560
+
+# Display
 featured = false
-description = "Integrate privacy-friendly GoatCounter analytics in Alpha. Guide covers simple setup, local script usage, opt-out features, and important considerations."
-# SEO
+recommended = false
+
+# Publication Control
+draft = false
+layout = "page"
+github_edit = true
+
+# Advanced SEO
 seo_type = "TechArticle"
 seo_image = "analytics-alpha-docs-seo.png"
 +++
@@ -40,7 +49,7 @@ GoatCounter may lack some of the advanced features of commercial alternatives, b
 1. **Sign up** at the [GoatCounter website](https://www.goatcounter.com/signup).
 1. After signing up, your analytics dashboard will be available at:
 `https://[your-code].goatcounter.com`
-1. To enable GoatCounter in Alpha, add your code in `/config/_default/params.toml`:
+1. To enable GoatCounter in Alpha, add your code in `config/_default/params.toml`:
 
 ```toml
 goatcounter_prefix = "[your-code]"

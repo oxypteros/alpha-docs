@@ -1,24 +1,31 @@
 +++
-draft = false
+# Content Identity
+title = "Host & Deploy Alpha"
+description = "Simplified deployment for your Alpha Hugo site. Step-by-step instructions for Cloudflare Pages, Netlify, and Vercel, perfect for all users."
+
+# Dates
 date = "2025-06-04T13:26:04+02:00"
-lastmod = ""
-layout = "list"
+
+# Pagination
 paginate = false
 
-title = "Host & Deploy Alpha"
+# Series
+series = "Alpha Docs"
+weight = 530
+
+# Publication Control
+draft = false
+layout = "list"
+
+# Advanced SEO
+seo_type = "TechArticle"
+seo_image = "deployment-alpha-docs-seo.png"
 author = "oxypteros"
 license = "CC-BY-SA"
-series = "Alpha Docs"
-  weight = 580
-description = "Simplified deployment for your Alpha Hugo site. Step-by-step instructions for Cloudflare Pages, Netlify, and Vercel, perfect for all users."
-# SEO
-seo_type = "TechArticle"
-seo_image = "integrations-alpha-docs-seo.png"
 +++
-
 {{< text_snippet >}}
 
-Hugo can be deployed almost anywhere, and today’s vast range of options can be overwhelming. To make things easier (mostly for beginners), Alpha provides host and deployment instructions only for some of the platforms that work flawless with Hugo and your Alpha site.Experiment and choose the one that best suits your project and workflow.
+Hugo can be deployed almost anywhere, and today’s vast range of options can be overwhelming. To make things easier (mostly for beginners), Alpha provides host and deployment instructions only for some of the platforms that work flawless with Hugo and your Alpha site. Experiment and choose the one that best suits your project and workflow.
 
 {{< /text_snippet>}}
 
