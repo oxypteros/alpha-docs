@@ -48,7 +48,7 @@ The `<meta name="description" content="...">` (snippet description for SERPs) is
 {{< status_card TITLE="Attention" TYPE="warning" >}}
 
 Because missing or incorrect values for title and description severely harm SEO, Alpha does not provide defaults. 
-If left empty, [LiVa](docs/liva/) will warn you.
+If left empty, [LiVa](/docs/liva/) will warn you.
 
 {{< /status_card >}}
 
