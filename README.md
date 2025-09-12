@@ -20,9 +20,10 @@ Thank you for being part of the project!
     - [languages.toml](https://alpha.oxypteros.com/docs/config/languages-toml) 
     - [menus.toml](https://alpha.oxypteros.com/docs/config/menu-toml)
     - [params.toml](https://alpha.oxypteros.com/docs/config/params-toml)
-  - [OCD](https://alpha.oxypteros.com/docs/ocd)
+  - [LiVa](https://alpha.oxypteros.com/docs/liva)
   - [Content Organization](https://alpha.oxypteros.com/docs/content-organization)
   - [Shortcodes](https://alpha.oxypteros.com/docs/shortcodes)
+    - [Help Shortcode](https://alpha.oxypteros.com/docs/shortcodes/help)
     - [Hero Shortcode](https://alpha.oxypteros.com/docs/shortcodes/hero)
     - [Featured Shortcode](https://alpha.oxypteros.com/docs/shortcodes/featured)
     - [Text-Snippet Shortcode](https://alpha.oxypteros.com/docs/shortcodes/text-snippet)
@@ -55,18 +56,15 @@ Thank you for being part of the project!
     - [Cloudflare Pages](https://alpha.oxypteros.com/docs/depoyment/cloudflare)
     - [Netlify](https://alpha.oxypteros.com/docs/deployment/netlify)
     - [Vercel](https://alpha.oxypteros.com/docs/deployment/vercel)
-<!--
+  - [SEO](https://alpha.oxypteros.com/docs/seo)
+    - [Metadata](https://alpha.oxypteros.com/docs/seo/metadata)
+    - [Schema.org](https://alpha.oxypteros.com/docs/seo/schema)
+<!--    
+    - [Open Graph](https://alpha.oxypteros.com/docs/seo/open-graph)
+    - [Twitter Cards](https://alpha.oxypteros.com/docs/seo/twitter-cards)
+    - [Crawlers & Indexing](https://alpha.oxypteros.com/docs/seo/crawlers-indexing)
+
 ```
-
-
-├── Integrations (Category: Integrations)
-│   ├── Pagefind
-│   ├── Contact (to-do)
-│   └── Goatcounter
-├── Deployment (Category: Deployment)
-│   ├── Cloudflare Pages
-│   ├── Vercel 
-│   └── Netlify
 ├── Update Alpha and Hugo (Category: Maintenance) (To do)
 ├── Devloping Alphs (Category: ???) (To do)
 │   ├── Node.js 
