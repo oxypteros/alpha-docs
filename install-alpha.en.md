@@ -1,12 +1,12 @@
 +++
 # Content Identity
 title = "Install Alpha"
-description = "Learn how to install the Alpha Hugo theme. Instructions for fresh setups, adding to existing projects, and enabling optional Tailwind CSS support."
+description = "Learn how to install the Alpha Hugo theme. Instructions for fresh setups, adding to existing projects."
 
 # Authoring
 author = "oxypteros"
 date = "2025-05-29T19:54:54+02:00"
-lastmod = "2025-07-11T15:17:16+02:00"
+lastmod = "2025-09-12T12:43:21+02:00"
 license = "CC-BY-SA"
 
 # Organization
@@ -175,6 +175,7 @@ theme = ["github.com/oxypteros/alpha"]
 
 ## Troubleshoot
 
+### No layout file
 I’ve thoroughly tested all installation methods in a variety of scenarios, environments, and setups. In nearly all cases, the installation is smooth as long as there's no system misconfiguration (most commonly related to Git).
 
 The only recurring issue I encountered was the following Hugo warning:
@@ -187,6 +188,17 @@ This warning is usually caused by one of the following:
 - The `theme = "alpha"` line is missing or defined more than once in `hugo.toml`.
 - If using Hugo Modules, ensure you’re using: `theme = ["github.com/oxypteros/alpha"]`.
 
+### Module not compatible
+A common warning you may see when running `hugo server` is:
+
+```bash
+WARN  Module is not compatible with this Hugo version: 0.XXX/0.XXX
+```
+This happens when your installed Hugo version is newer than the versions I’ve tested Alpha with. For best compatibility, Alpha uses a **minimum** and **maximum** Hugo version defined in `config/_default/hugo.toml`.
+
+- If you’re on a version **newer** than the **recommended maximum**, Hugo will show this warning.
+- In most cases, it’s harmless since Hugo rarely introduces breaking changes.
+- To be extra safe, stick to the recommended maximum version until I officially test and update Alpha for newer releases.
 
 
 If you encounter any other issue, please:
