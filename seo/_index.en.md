@@ -1,6 +1,6 @@
 +++
 # Content Identity
-title = "SEO & Social"
+title = "SEO & SMO"
 description = "Learn how Alpha handles SEO and social sharing. Build on its solid infrastructure to maximize visibility and reach."
 
 # Dates
