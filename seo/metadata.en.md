@@ -13,7 +13,7 @@ categories = ["SEO"]
 
 ## Series
 series = "Alpha Docs"
-parts = "SEO"
+parts = "SEO & SMO"
 weight = 630
 
 # Display

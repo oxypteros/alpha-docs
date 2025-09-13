@@ -13,7 +13,7 @@ categories = ["SEO"]
 
 ## Series
 series = "Alpha Docs"
-parts = "SEO"
+parts = "SEO & SMO"
 weight = 640
 
 # Display
@@ -120,7 +120,7 @@ The following is the generated schema for the current page. It is populated only
   "image": {
     "@type": "ImageObject",
     "height": 630,
-    "url": "https://alpha.oxypteros.com/img/alpha-seo.png", 
+    "url": "https://alpha.oxypteros.com/img/schema-alpha-docs-seo.png", 
     "width": 1200
   },
   "inLanguage": "en",
@@ -145,9 +145,9 @@ The following is the generated schema for the current page. It is populated only
     "name": "Alpha Theme",
     "url": "https://alpha.oxypteros.com/"
   },
-  "timeRequired": "PT2M",
+  "timeRequired": "PT3M",
   "url": "https://alpha.oxypteros.com/docs/seo/schema/",
-  "wordCount": 366
+  "wordCount": 542
 }
 </script>
 <script type="application/ld+json">
